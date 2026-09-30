@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Охотник и Рыболов — Каталог для бронирования | ФЗ-150</title>
+<meta name="description" content="Информационный каталог магазина гражданского оружия. Предварительное бронирование. Продажа только в магазине по лицензии Росгвардии. ФЗ №150, ФЗ-152. 18+">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/cyrillic-500-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/cyrillic-600-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/cyrillic-400-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/cyrillic-600-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/cyrillic-800-normal.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --pine-950:#0b130e;--pine-900:#0f1a14;--pine-800:#15241b;--pine-700:#1c3125;--pine-600:#274232;--pine-500:#35573f;
+  --amber:#e0862e;--amber-dark:#b96a17;--amber-light:#f2a95c;
+  --cream:#f4f0e6;--moss:#9dbb9a;--red:#e5695e;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--pine-900);color:var(--cream);-webkit-font-smoothing:antialiased;line-height:1.6}
+::selection{background:var(--amber);color:var(--pine-900)}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--pine-900)}
+::-webkit-scrollbar-thumb{background:var(--pine-600);border-radius:8px}
+
+.font-display{font-family:'Oswald',sans-serif;font-weight:600}
+.font-bold{font-weight:700}
+.font-extrabold{font-weight:800}
+
+.container{max-width:1280px;margin:0 auto;padding:0 1rem}
+@media(min-width:768px){.container{padding:0 1.5rem}}
+
+.flex{display:flex}
+.flex-col{flex-direction:column}
+.flex-wrap{flex-wrap:wrap}
+.items-center{align-items:center}
+.items-start{align-items:start}
+.items-end{align-items:end}
+.justify-center{justify-content:center}
+.justify-between{justify-content:space-between}
+.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}
+
+.grid{display:grid}
+.grid-cols-1{grid-template-columns:repeat(1,1fr)}
+.grid-cols-2{grid-template-columns:repeat(2,1fr)}
+.grid-cols-3{grid-template-columns:repeat(3,1fr)}
+.grid-cols-4{grid-template-columns:repeat(4,1fr)}
+@media(min-width:640px){.sm-grid-cols-2{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:768px){.md-grid-cols-2{grid-template-columns:repeat(2,1fr)}.md-grid-cols-3{grid-template-columns:repeat(3,1fr)}.md-grid-cols-4{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:1024px){.lg-grid-cols-4{grid-template-columns:repeat(4,1fr)}.lg-grid-cols-3{grid-template-columns:repeat(3,1fr)}}
+
+.w-full{width:100%}.h-full{height:100%}
+.text-xs{font-size:.75rem}.text-sm{font-size:.875rem}.text-base{font-size:1rem}.text-lg{font-size:1.125rem}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.text-3xl{font-size:1.875rem}.text-4xl{font-size:2.25rem}
+@media(min-width:768px){.md-text-3xl{font-size:1.875rem}.md-text-4xl{font-size:2.25rem}.md-text-5xl{font-size:3rem}}
+
+.uppercase{text-transform:uppercase}
+.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}
+.text-center{text-align:center}.text-right{text-align:right}
+
+.text-cream{color:var(--cream)}.text-amber{color:var(--amber)}.text-amber-light{color:var(--amber-light)}.text-moss{color:var(--moss)}.text-pine-950{color:var(--pine-950)}
+.bg-pine-950{background:var(--pine-950)}.bg-pine-900{background:var(--pine-900)}.bg-pine-800{background:var(--pine-800)}.bg-pine-700{background:var(--pine-700)}.bg-amber{background:var(--amber)}.bg-amber-dark{background:var(--amber-dark)}
+
+.border{border:1px solid rgba(255,255,255,.1)}.border-amber{border:1px solid rgba(224,134,46,.4)}.border-b{border-bottom:1px solid rgba(255,255,255,.05)}.border-t{border-top:1px solid rgba(255,255,255,.05)}
+.rounded{border-radius:.25rem}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}
+
+.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}
+.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}
+.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-20{padding-top:5rem;padding-bottom:5rem}
+
+.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mb-10{margin-bottom:2.5rem}
+.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.mt-10{margin-top:2.5rem}
+.ml-auto{margin-left:auto}.mr-2{margin-right:.5rem}
+
+.relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.sticky{position:sticky}
+.inset-0{top:0;right:0;bottom:0;left:0}.top-0{top:0}.right-0{right:0}.bottom-0{bottom:0}
+.z-40{z-index:40}.z-50{z-index:50}.z-60{z-index:60}.z-70{z-index:70}.z-80{z-index:80}.z-100{z-index:100}
+
+.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-auto{overflow-x:auto}
+.transition{transition:all .3s ease}
+.opacity-0{opacity:0}.opacity-70{opacity:.7}.opacity-80{opacity:.8}
+.pointer-events-none{pointer-events:none}
+.shadow{box-shadow:0 14px 34px -14px rgba(0,0,0,.6)}
+.hidden{display:none}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}a:hover{color:var(--amber-light)}
+ul{list-style:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.75rem 1.5rem;border-radius:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:.875rem;cursor:pointer;border:none;transition:all .2s;font-family:inherit}
+.btn-amber{background:linear-gradient(180deg,var(--amber-light),var(--amber));color:var(--pine-950)}
+.btn-amber:hover{filter:brightness(1.1)}.btn-amber:active{transform:scale(.97)}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.16);color:var(--cream)}
+.btn-ghost:hover{border-color:var(--amber);color:var(--amber-light)}
+.btn-notify{background:transparent;border:1px dashed var(--red);color:var(--red);font-weight:800}
+.btn-notify:hover{background:rgba(229,105,94,.12)}
+.btn-whatsapp{background:#25D366;color:#fff;font-weight:800}
+.btn-whatsapp:hover{filter:brightness(1.1)}
+
+.field{background:#12211a;border:1px solid rgba(255,255,255,.1);border-radius:.75rem;padding:.7rem 1rem;width:100%;color:var(--cream);outline:none;transition:border-color .2s;font-family:inherit}
+.field:focus{border-color:var(--amber);box-shadow:0 0 0 3px rgba(224,134,46,.18)}
+.field::placeholder{color:#7d8a7f}
+
+.chip{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;border-radius:9999px;border:1px solid rgba(255,255,255,.12);background:var(--pine-800);cursor:pointer;transition:all .25s;font-size:.8125rem;font-weight:700}
+.chip:hover{transform:translateY(-2px)}
+.chip.active{background:var(--amber);color:var(--pine-950);border-color:var(--amber)}
+
+.stock{display:inline-flex;align-items:center;gap:.4rem;font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.stock::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex-shrink:0}
+.stock-in{color:#7ddc7d}
+.stock-in::before{animation:pulse 2s infinite}
+.stock-few{color:#f2c14e}
+.stock-out{color:#e5695e}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(125,220,125,.5)}50%{box-shadow:0 0 0 5px rgba(125,220,125,0)}}
+
+.pcard{background:var(--pine-800);border:1px solid rgba(255,255,255,.08);border-radius:1rem;overflow:hidden;transition:all .35s;display:flex;flex-direction:column}
+.pcard:hover{transform:translateY(-6px);border-color:rgba(224,134,46,.45);box-shadow:0 22px 44px -18px rgba(0,0,0,.7)}
+.pcard:hover .pimg{transform:scale(1.06)}
+.pcard.is-out{opacity:.7}
+.pimg{transition:transform .6s}
+
+.imgwell{background:radial-gradient(circle at 30% 20%,#fff 0%,#f1ede3 55%,#e6e1d4 100%);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:1.25rem;position:relative;overflow:hidden}
+.imgwell img,.imgwell svg{max-height:100%;max-width:100%;object-fit:contain}
+
+.hero{position:relative;min-height:600px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#1a2f1a 0%,#0f1a14 100%)}
+.hero-veil{position:absolute;inset:0;background:linear-gradient(100deg,rgba(11,19,14,.96) 0%,rgba(11,19,14,.82) 38%,rgba(11,19,14,.35) 70%,rgba(11,19,14,.55) 100%)}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+.marq{overflow:hidden;white-space:nowrap}
+.marq-inner{display:inline-block;animation:marq 40s linear infinite}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+#drawer{position:fixed;top:0;right:0;height:100%;width:100%;max-width:28rem;background:var(--pine-900);border-left:1px solid rgba(255,255,255,.1);box-shadow:0 14px 34px -14px rgba(0,0,0,.6);transform:translateX(100%);transition:transform .45s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;z-index:50}
+#drawer.open{transform:translateX(0)}
+#drawerOverlay{position:fixed;inset:0;background:rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .35s;z-index:40}
+#drawerOverlay.open{opacity:1;pointer-events:auto}
+
+#adminPanel{position:fixed;top:0;right:0;height:100%;width:100%;max-width:48rem;background:var(--pine-950);border-left:1px solid rgba(255,255,255,.1);box-shadow:0 14px 34px -14px rgba(0,0,0,.6);transform:translateX(100%);transition:transform .4s cubic-bezier(.2,.8,.2,1);overflow-y:auto;z-index:80}
+#adminPanel.open{transform:translateX(0)}
+
+.admin-input{background:#1a1a1a;border:1px solid #333;color:#fff;padding:.5rem;border-radius:.5rem;width:100%;margin-bottom:.5rem;font-family:inherit}
+.admin-btn{background:var(--amber);color:#fff;padding:.5rem 1rem;border-radius:.5rem;font-weight:600;cursor:pointer;border:none;transition:background .2s;font-size:.875rem;font-family:inherit}
+.admin-btn:hover{background:var(--amber-dark)}
+.admin-table{width:100%;border-collapse:collapse;font-size:13px}
+.admin-table th,.admin-table td{padding:.5rem;border:1px solid #333;text-align:left;vertical-align:middle}
+.admin-table th{background:#1a1a1a;color:var(--amber);font-weight:700}
+.admin-tab{padding:.75rem 1rem;background:var(--pine-800);border:1px solid rgba(255,255,255,.1);border-radius:.5rem;cursor:pointer;color:var(--moss);font-weight:700;transition:all .2s}
+.admin-tab.active{background:var(--amber);color:var(--pine-950);border-color:var(--amber)}
+
+.stat-card{background:var(--pine-800);border:1px solid rgba(255,255,255,.1);border-radius:1rem;padding:1.25rem;text-align:center}
+.stat-value{font-family:'Oswald',sans-serif;font-size:2rem;color:var(--amber-light);font-weight:600;line-height:1}
+.stat-label{font-size:.75rem;color:var(--moss);text-transform:uppercase;letter-spacing:.1em;margin-top:.5rem}
+
+.toast{animation:toastIn .35s cubic-bezier(.2,.8,.2,1);background:var(--pine-800);border:1px solid rgba(224,134,46,.4);color:var(--cream);font-size:13px;font-weight:600;border-radius:.75rem;padding:.875rem 1.25rem;box-shadow:0 14px 34px -14px rgba(0,0,0,.6);display:flex;align-items:center;gap:.75rem}
+@keyframes toastIn{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+
+#toasts{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%);z-index:70;display:flex;flex-direction:column;gap:.625rem;width:calc(100% - 2rem);max-width:24rem}
+
+.pulse-dot{animation:pulseDot 2s infinite}
+@keyframes pulseDot{0%,100%{box-shadow:0 0 0 0 rgba(224,134,46,.5)}50%{box-shadow:0 0 0 8px rgba(224,134,46,0)}}
+
+.stepnum{font-family:'Oswald',sans-serif;font-size:3.4rem;line-height:1;color:transparent;-webkit-text-stroke:1px rgba(224,134,46,.55)}
+
+.fab{position:fixed;z-index:60;display:flex;flex-direction:column;gap:.75rem}
+.fab-btn{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;box-shadow:0 8px 24px rgba(0,0,0,.4);transition:all .3s}
+.fab-btn:hover{transform:scale(1.08)}
+.fab-whatsapp{background:#25D366}
+.fab-share{background:var(--amber)}
+.fab-phone{background:var(--amber-dark)}
+
+.share-menu{position:absolute;bottom:70px;right:0;background:var(--pine-800);border:1px solid rgba(255,255,255,.1);border-radius:1rem;padding:.5rem;display:none;flex-direction:column;gap:.25rem;min-width:200px;box-shadow:0 14px 34px -14px rgba(0,0,0,.6)}
+.share-menu.open{display:flex}
+.share-menu button{background:transparent;border:none;color:var(--cream);padding:.75rem 1rem;text-align:left;cursor:pointer;border-radius:.5rem;font-family:inherit;display:flex;align-items:center;gap:.75rem;transition:background .2s;font-size:.875rem}
+.share-menu button:hover{background:var(--pine-700)}
+
+.article-card{background:var(--pine-800);border:1px solid rgba(255,255,255,.08);border-radius:1rem;overflow:hidden;transition:all .35s;cursor:pointer}
+.article-card:hover{transform:translateY(-4px);border-color:rgba(224,134,46,.3)}
+.article-cover{aspect-ratio:16/9;background:linear-gradient(135deg,var(--pine-700),var(--pine-800));display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.article-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(11,19,14,.8))}
+
+.map-container{border-radius:1rem;overflow:hidden;border:1px solid rgba(255,255,255,.1);height:400px}
+.map-container iframe{width:100%;height:100%;border:none}
+
+.modal{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;padding:1rem}
+.modal.open{display:flex}
+.modal-content{background:var(--pine-800);border:1px solid rgba(255,255,255,.1);border-radius:1.5rem;max-width:56rem;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 14px 34px -14px rgba(0,0,0,.6);position:relative}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:59}
+
+.badge-new{background:#7ddc7d;color:var(--pine-950);padding:.125rem .5rem;border-radius:9999px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+.badge-hit{background:var(--amber);color:var(--pine-950);padding:.125rem .5rem;border-radius:9999px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+
+.multi-image-upload{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:.5rem}
+.image-preview{position:relative;aspect-ratio:1;background:var(--pine-700);border-radius:.5rem;overflow:hidden;border:1px solid rgba(255,255,255,.1)}
+.image-preview img{width:100%;height:100%;object-fit:cover}
+.image-preview button{position:absolute;top:.25rem;right:.25rem;width:1.5rem;height:1.5rem;background:rgba(0,0,0,.6);color:#fff;border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px}
+
+@media(max-width:640px){
+  .fab{bottom:1rem;right:1rem}
+  .fab-btn{width:50px;height:50px}
+  .hero{min-height:500px}
+}
+</style>
+</head>
+<body>
+
+<!-- 18+ ПОДТВЕРЖДЕНИЕ ВОЗРАСТА -->
+<div id="ageGate" class="fixed inset-0 z-100 bg-pine-950 flex items-center justify-center p-4" style="background:rgba(11,19,14,.985);backdrop-filter:blur(8px)">
+  <div class="bg-pine-800 border rounded-3xl p-8 text-center shadow relative overflow-hidden" style="max-width:32rem;width:100%">
+    <div class="absolute bg-amber rounded-full" style="top:-4rem;right:-4rem;width:14rem;height:14rem;filter:blur(3rem);opacity:.15"></div>
+    <div class="mx-auto w-20 h-20 rounded-2xl bg-amber text-pine-950 font-display text-3xl font-bold flex items-center justify-center mb-6" style="transform:rotate(3deg)">18+</div>
+    <h2 class="font-display text-3xl font-bold uppercase tracking-wide mb-3">Подтверждение возраста</h2>
+    <p class="text-moss text-sm leading-relaxed mb-7">Сайт содержит информацию о гражданском оружии и патронах. В соответствии с <b class="text-cream">Федеральным законом № 150-ФЗ «Об оружии»</b>, информация доступна только лицам, достигшим <b class="text-cream">18 лет</b>.</p>
+    <div class="flex flex-col sm:flex-row gap-3 justify-center" style="display:flex;flex-direction:column;gap:.75rem">
+      <button id="ageYes" class="btn btn-amber">Мне есть 18 лет — войти</button>
+      <button id="ageNo" class="btn btn-ghost">Мне нет 18 лет</button>
+    </div>
+    <p class="mt-6 text-xs text-moss opacity-70 leading-relaxed">Продажа гражданского оружия и патронов осуществляется только по лицензии Росгвардии.</p>
+  </div>
+</div>
+
+<div id="ageDeny" class="fixed inset-0 z-100 bg-pine-950 hidden items-center justify-center p-6 text-center">
+  <div style="max-width:28rem">
+    <div class="text-6xl mb-4">🛡️</div>
+    <h2 class="font-display text-2xl uppercase mb-3 text-amber-light">Доступ ограничен</h2>
+    <p class="text-moss text-sm leading-relaxed">Информация об оружии и патронах доступна только с 18 лет согласно законодательству РФ.</p>
+  </div>
+</div>
+
+<!-- ЮРИДИЧЕСКАЯ СТРОКА -->
+<div class="bg-pine-950 text-xs text-moss border-b">
+  <div class="marq py-2">
+    <div class="marq-inner">
+      <span style="margin:0 1.5rem" class="text-amber-light font-bold">⚠️ ВНИМАНИЕ:</span>
+      <span style="margin:0 1.5rem">Дистанционная продажа оружия и патронов в РФ ЗАПРЕЩЕНА (ст. 19 ФЗ № 150-ФЗ).</span>
+      <span style="margin:0 1.5rem">Сайт — информационный каталог для предварительного бронирования.</span>
+      <span style="margin:0 1.5rem">Выдача только при личном визите с паспортом и лицензией Росгвардии.</span>
+      <span style="margin:0 1.5rem">📍 г. Назрань, ул. Чеченская, 32/1 · ежедневно 9:00–18:00</span>
+      <span style="margin:0 1.5rem">☎️ +7 (964) 601-06-06</span>
+      <span style="margin:0 1.5rem" class="text-amber-light font-bold">⚠️ ВНИМАНИЕ:</span>
+      <span style="margin:0 1.5rem">Дистанционная продажа оружия и патронов в РФ ЗАПРЕЩЕНА (ст. 19 ФЗ № 150-ФЗ).</span>
+      <span style="margin:0 1.5rem">Сайт — информационный каталог для предварительного бронирования.</span>
+      <span style="margin:0 1.5rem">Выдача только при личном визите с паспортом и лицензией Росгвардии.</span>
+      <span style="margin:0 1.5rem">📍 г. Назрань, ул. Чеченская, 32/1 · ежедневно 9:00–18:00</span>
+      <span style="margin:0 1.5rem">☎️ +7 (964) 601-06-06</span>
+    </div>
+  </div>
+</div>
+
+<!-- ШАПКА -->
+<header id="hdr" class="sticky top-0 z-40 border-b transition" style="backdrop-filter:blur(12px);background:rgba(15,26,20,.9)">
+  <div class="container flex items-center gap-4" style="height:72px">
+    <a href="#top" class="flex items-center gap-3">
+      <span class="w-11 h-11 rounded-xl overflow-hidden border flex items-center justify-center font-display font-bold text-amber bg-pine-800">ОиР</span>
+      <span class="leading-none">
+        <span class="block font-display font-bold uppercase text-lg tracking-wide">Охотник <span class="text-amber">и</span> Рыболов</span>
+        <span class="block text-xs text-moss mt-1 tracking-widest uppercase">Каталог · с 2008 г.</span>
+      </span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-7 ml-8 text-sm font-bold text-moss">
+      <a href="#categories" class="hover:text-amber-light transition">Каталог</a>
+      <a href="#articles" class="hover:text-amber-light transition">Статьи</a>
+      <a href="#law" class="hover:text-amber-light transition">ФЗ-150</a>
+      <a href="#about" class="hover:text-amber-light transition">О магазине</a>
+      <a href="#contacts" class="hover:text-amber-light transition">Контакты</a>
+    </nav>
+    <div class="ml-auto flex items-center gap-3">
+      <a href="tel:+79646010606" class="hidden md:block text-right leading-tight">
+        <span class="block font-display text-base tracking-wide">+7 (964) 601-06-06</span>
+        <span class="block text-xs text-moss">ежедневно 9:00–18:00</span>
+      </a>
+      <button id="cartBtn" class="btn btn-amber text-sm">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        <span class="hidden sm:inline">Резерв</span>
+        <span id="cartCount" class="min-w-6 h-6 px-1 rounded-full bg-pine-950 text-amber-light text-xs font-extrabold flex items-center justify-center" style="min-width:1.5rem;height:1.5rem">0</span>
+      </button>
+      <button id="adminToggle" class="btn btn-ghost text-sm" title="Админ-панель">⚙️</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-bg"></div>
+  <svg class="hero-img" viewBox="0 0 1600 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#d97a2a"/>
+        <stop offset="50%" stop-color="#b96a17"/>
+        <stop offset="100%" stop-color="#0f1a14"/>
+      </linearGradient>
+      <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#2d4a3a"/>
+        <stop offset="100%" stop-color="#0f1a14"/>
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="800" fill="url(#sky)"/>
+    <circle cx="1300" cy="200" r="80" fill="#f2a95c" opacity=".8"/>
+    <polygon points="0,500 200,300 400,450 600,250 800,400 1000,280 1200,420 1400,300 1600,380 1600,800 0,800" fill="url(#mtn)"/>
+    <polygon points="0,550 300,450 500,500 700,420 900,520 1100,440 1300,500 1600,460 1600,800 0,800" fill="#15241b" opacity=".9"/>
+    <rect y="650" width="1600" height="150" fill="#0b130e"/>
+  </svg>
+  <div class="hero-veil"></div>
+  <div class="container relative py-20 w-full" style="z-index:1">
+    <div style="max-width:42rem">
+      <div class="inline-flex items-center gap-2 border-amber rounded-full px-4 py-2 text-xs text-amber-light font-bold mb-6" style="background:rgba(11,19,14,.7)">
+        <span class="w-2 h-2 rounded-full bg-amber pulse-dot"></span>
+        Лицензированный магазин · Росгвардия · ФЗ № 150
+      </div>
+      <h1 class="font-display font-bold uppercase leading-tight text-4xl md-text-5xl tracking-tight" style="font-size:clamp(2rem,5vw,4rem)">
+        Оружие для охоты.<br>Патроны всех калибров.<br><span class="text-amber">Всё — по закону.</span>
+      </h1>
+      <p class="mt-6 text-moss text-base md-text-lg leading-relaxed" style="max-width:36rem">
+        Гладкоствольные ружья, нарезные карабины, травматические пистолеты (ОООП) и патроны. 
+        <b class="text-cream">Забронируйте</b> товар на сайте — получите в магазине по паспорту и лицензии.
+      </p>
+      <div class="mt-9 flex flex-wrap gap-4">
+        <a href="#catalog" class="btn btn-amber">Смотреть каталог</a>
+        <a href="#law" class="btn btn-ghost" style="background:rgba(11,19,14,.5)">Правила покупки (ФЗ-150)</a>
+      </div>
+      <div class="mt-12 grid grid-cols-3 gap-6" style="max-width:32rem">
+        <div><div class="font-display text-3xl text-amber-light font-bold">17</div><div class="text-xs text-moss mt-1 uppercase tracking-wider">лет на рынке</div></div>
+        <div><div class="font-display text-3xl text-amber-light font-bold">500+</div><div class="text-xs text-moss mt-1 uppercase tracking-wider">товаров</div></div>
+        <div><div class="font-display text-3xl text-amber-light font-bold">100%</div><div class="text-xs text-moss mt-1 uppercase tracking-wider">легальность</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- КАТЕГОРИИ -->
+<section id="categories" class="py-16 md:py-24">
+  <div class="container">
+    <div class="flex items-end justify-between gap-6 mb-10 reveal" style="display:flex;flex-wrap:wrap">
+      <div>
+        <div class="text-amber text-xs font-extrabold uppercase tracking-widest mb-2">Разделы каталога</div>
+        <h2 class="font-display text-3xl md-text-5xl font-bold uppercase" style="font-size:clamp(1.75rem,4vw,3rem)">Категории товаров</h2>
+      </div>
+    </div>
+    <div id="catGrid" class="grid md-grid-cols-3 gap-6"></div>
+  </div>
+</section>
+
+<!-- КАТАЛОГ -->
+<section id="catalog" class="border-y" style="background:rgba(11,19,14,.6)">
+  <div class="container py-16 md:py-24">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-8 reveal">
+      <div>
+        <div class="text-amber text-xs font-extrabold uppercase tracking-widest mb-2">Витрина</div>
+        <h2 class="font-display text-3xl md-text-5xl font-bold uppercase" style="font-size:clamp(1.75rem,4vw,3rem)">Каталог для бронирования</h2>
+        <div class="flex gap-4 mt-3 text-xs font-bold flex-wrap">
+          <span class="stock stock-in">В наличии</span>
+          <span class="stock stock-few">Осталось мало</span>
+          <span class="stock stock-out">Нет в наличии</span>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <button id="stockToggle" class="btn btn-ghost text-xs font-bold text-moss">
+          <span id="stockToggleBox" class="w-5 h-5 rounded border-2 border-moss flex items-center justify-center text-xs transition"></span>
+          Только в наличии
+        </button>
+        <div class="relative">
+          <svg class="absolute text-moss" style="left:.875rem;top:50%;transform:translateY(-50%)" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+          <input id="searchInput" type="search" placeholder="Поиск: МР-27, 7.62×39…" class="field text-sm" style="padding-left:2.5rem;width:14rem">
+        </div>
+        <select id="sortSelect" class="field text-sm font-bold cursor-pointer" style="width:12rem">
+          <option value="pop">Сначала популярные</option>
+          <option value="stock">Сначала в наличии</option>
+          <option value="asc">Цена: по возрастанию</option>
+          <option value="desc">Цена: по убыванию</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="chipRow" class="flex flex-wrap gap-3 mb-10 reveal"></div>
+    <div id="productGrid" class="grid sm-grid-cols-2 lg-grid-cols-4 gap-5"></div>
+    <div id="emptyState" class="hidden text-center py-20">
+      <div class="text-5xl mb-4">🔍</div>
+      <div class="font-display text-xl uppercase mb-2">Ничего не найдено</div>
+      <p class="text-moss text-sm">Попробуйте изменить запрос или сбросить фильтры.</p>
+      <button id="resetFilters" class="btn btn-ghost mt-6 text-sm">Сбросить фильтры</button>
+    </div>
+
+    <div class="mt-10 flex items-start gap-3 bg-pine-800 border-amber rounded-2xl p-5 text-xs text-moss leading-relaxed reveal" style="background:rgba(21,36,27,.7)">
+      <span class="text-amber text-lg leading-none mt-1">⚖️</span>
+      <p>Оружие и патроны представлены для ознакомления и <b class="text-cream">предварительного бронирования</b>. В соответствии с законодательством РФ, дистанционная продажа гражданского оружия запрещена. Выдача производится <b class="text-cream">только в магазине</b> при предъявлении паспорта и действующей лицензии (разрешения) Росгвардии.</p>
+    </div>
+  </div>
+</section>
+
+<!-- СТАТЬИ -->
+<section id="articles" class="py-16 md:py-24">
+  <div class="container">
+    <div class="mb-10 reveal">
+      <div class="text-amber text-xs font-extrabold uppercase tracking-widest mb-2">Полезные материалы</div>
+      <h2 class="font-display text-3xl md-text-5xl font-bold uppercase" style="font-size:clamp(1.75rem,4vw,3rem)">Новости и статьи</h2>
+      <p class="text-moss mt-3">Всё, что нужно знать о получении лицензии, выборе оружия и правилах охоты в Ингушетии.</p>
+    </div>
+    <div class="grid md-grid-cols-3 gap-6">
+      <article class="article-card reveal" onclick="openArticle('license')">
+        <div class="article-cover">
+          <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="20" width="80" height="80" fill="none" stroke="#e0862e" stroke-width="3" rx="5"/>
+            <line x1="35" y1="40" x2="85" y2="40" stroke="#f2a95c" stroke-width="2"/>
+            <line x1="35" y1="55" x2="85" y2="55" stroke="#f2a95c" stroke-width="2"/>
+            <line x1="35" y1="70" x2="70" y2="70" stroke="#f2a95c" stroke-width="2"/>
+            <circle cx="75" cy="75" r="12" fill="#e0862e"/>
+            <path d="M70 75 L73 78 L80 71" stroke="#0f1a14" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="p-6">
+          <span class="badge-new">Гайд</span>
+          <h3 class="font-display text-xl uppercase mt-3 mb-2">Как получить лицензию Росгвардии</h3>
+          <p class="text-moss text-sm leading-relaxed">Пошаговая инструкция: обучение, медкомиссия, документы, подача через Госуслуги.</p>
+          <div class="flex items-center gap-2 mt-4 text-xs text-moss">
+            <span>📖 7 мин чтения</span>
+            <span>·</span>
+            <span>Актуально на 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card reveal" onclick="openArticle('review')">
+        <div class="article-cover">
+          <svg width="140" height="80" viewBox="0 0 140 80" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="30" width="90" height="12" fill="#e0862e" rx="2"/>
+            <rect x="20" y="20" width="30" height="20" fill="#f2a95c" rx="2"/>
+            <rect x="85" y="25" width="30" height="22" fill="#9dbb9a" rx="2"/>
+            <circle cx="45" cy="45" r="4" fill="#0f1a14"/>
+            <rect x="100" y="50" width="25" height="8" fill="#e0862e" rx="1"/>
+          </svg>
+        </div>
+        <div class="p-6">
+          <span class="badge-hit">Обзор</span>
+          <h3 class="font-display text-xl uppercase mt-3 mb-2">Топ-5 ружей для охоты в 2026 году</h3>
+          <p class="text-moss text-sm leading-relaxed">Сравниваем МР-27, МР-155, Сайгу и другие популярные модели.</p>
+          <div class="flex items-center gap-2 mt-4 text-xs text-moss">
+            <span>📖 12 мин чтения</span>
+            <span>·</span>
+            <span>Тест-драйв</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card reveal" onclick="openArticle('hunting')">
+        <div class="article-cover">
+          <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 90 L30 60 L50 75 L70 45 L90 70 L110 50 L110 110 L10 110 Z" fill="#274232"/>
+            <circle cx="90" cy="30" r="15" fill="#f2a95c"/>
+            <path d="M25 90 L30 70 L35 90 Z" fill="#15241b"/>
+            <path d="M55 90 L62 60 L69 90 Z" fill="#15241b"/>
+            <path d="M75 90 L82 65 L89 90 Z" fill="#15241b"/>
+          </svg>
+        </div>
+        <div class="p-6">
+          <span class="badge-new">Сезон</span>
+          <h3 class="font-display text-xl uppercase mt-3 mb-2">Правила охоты в Ингушетии</h3>
+          <p class="text-moss text-sm leading-relaxed">Сроки охотничьего сезона, разрешённые виды дичи, требования к транспортировке оружия.</p>
+          <div class="flex items-center gap-2 mt-4 text-xs text-moss">
+            <span>📖 5 мин чтения</span>
+            <span>·</span>
+            <span>Регион</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ЗАКОН И ЛИЦЕНЗИИ -->
+<section id="law" class="border-y" style="background:rgba(11,19,14,.6)">
+  <div class="container py-16 md:py-24">
+    <div class="grid md-grid-cols-2 gap-10 items-start">
+      <div>
+        <div class="text-amber text-xs font-extrabold uppercase tracking-widest mb-2 reveal">Правовая памятка</div>
+        <h2 class="font-display text-3xl md-text-5xl font-bold uppercase mb-4 reveal" style="font-size:clamp(1.75rem,4vw,3rem)">Покупка по закону РФ</h2>
+        <p class="text-moss leading-relaxed mb-10 reveal">Мы работаем строго в рамках <b class="text-cream">Федерального закона № 150-ФЗ «Об оружии»</b> и Постановления Правительства РФ № 814.</p>
+        <div class="grid sm-grid-cols-2 gap-5">
+          <div class="bg-pine-800 border rounded-2xl p-6 reveal">
+            <div class="stepnum mb-3">01</div>
+            <h3 class="font-display uppercase text-lg mb-2 text-amber-light">Обучение</h3>
+            <p class="text-sm text-moss leading-relaxed">Пройдите курс безопасного обращения с оружием в лицензированном учебном центре.</p>
+          </div>
+          <div class="bg-pine-800 border rounded-2xl p-6 reveal">
+            <div class="stepnum mb-3">02</div>
+            <h3 class="font-display uppercase text-lg mb-2 text-amber-light">Медкомиссия</h3>
+            <p class="text-sm text-moss leading-relaxed">Получите медзаключение форм № 002-О/у и № 003-О/у (включая нарколога и психиатра).</p>
+          </div>
+          <div class="bg-pine-800 border rounded-2xl p-6 reveal">
+            <div class="stepnum mb-3">03</div>
+            <h3 class="font-display uppercase text-lg mb-2 text-amber-light">Лицензия Росгвардии</h3>
+            <p class="text-sm text-moss leading-relaxed">Подайте заявление через Госуслуги. Лицензия выдаётся после проверки условий хранения (сейф).</p>
+          </div>
+          <div class="bg-pine-800 border rounded-2xl p-6 reveal">
+            <div class="stepnum mb-3">04</div>
+            <h3 class="font-display uppercase text-lg mb-2 text-amber-light">Покупка и регистрация</h3>
+            <p class="text-sm text-moss leading-relaxed">Приходите в магазин с паспортом и лицензией. Зарегистрируйте оружие в Росгвардии в течение 14 дней.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="space-y-4">
+        <div class="rounded-3xl p-7 reveal" style="background:linear-gradient(135deg,var(--amber),var(--amber-dark));color:var(--pine-950)">
+          <div class="font-display text-2xl uppercase font-bold mb-1">Важно знать</div>
+          <div class="text-xs font-bold opacity-80 mb-4">Выдержки из законодательства</div>
+          <ul class="space-y-3 text-sm font-bold leading-relaxed">
+            <li class="flex gap-3"><span>§</span>Нарезное оружие — гражданам со стажем владения гладкоствольным <b>не менее 5 лет</b>.</li>
+            <li class="flex gap-3"><span>§</span>Патроны продаются только по разрешению на соответствующий вид оружия.</li>
+            <li class="flex gap-3"><span>§</span>Хранение дома — в запираемом сейфе; транспортировка — в чехле, разряженным.</li>
+            <li class="flex gap-3"><span>§</span>Максимум 5 единиц гладкоствольного и 5 единиц нарезного на одного гражданина.</li>
+          </ul>
+        </div>
+        <div class="bg-pine-800 border rounded-3xl p-7 reveal">
+          <div class="font-display uppercase text-sm text-amber-light mb-3">Поможем с документами</div>
+          <p class="text-sm text-moss leading-relaxed mb-5">Консультанты магазина подскажут полный список документов для вашего случая.</p>
+          <a href="#contacts" class="btn btn-amber text-sm">Получить консультацию</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- О МАГАЗИНЕ + КАРТА -->
+<section id="about" class="py-16 md:py-24">
+  <div class="container">
+    <div class="mb-10 reveal">
+      <div class="text-amber text-xs font-extrabold uppercase tracking-widest mb-2">О магазине</div>
+      <h2 class="font-display text-3xl md-text-5xl font-bold uppercase" style="font-size:clamp(1.75rem,4vw,3rem)">«Охотник и Рыболов»</h2>
+    </div>
+    <div class="grid md-grid-cols-2 gap-10 items-start">
+      <div class="reveal">
+        <p class="text-moss leading-relaxed mb-5">Мы — лицензированный оружейный магазин полного цикла: торговый зал с сейф-витринами, комната оружейника, стенд пристрелки и консультации по подбору калибра под вашу охоту.</p>
+        <ul class="space-y-3">
+          <li class="flex gap-3"><span class="text-amber">✔</span> Только сертифицированное гражданское оружие российского и импортного производства</li>
+          <li class="flex gap-3"><span class="text-amber">✔</span> Проверка каждой единицы оружейником перед выдачей</li>
+          <li class="flex gap-3"><span class="text-amber">✔</span> Патроны всех основных калибров всегда в наличии</li>
+          <li class="flex gap-3"><span class="text-amber">✔</span> Честные цены и гарантия производителя</li>
+        </ul>
+
+        <div class="mt-6 bg-pine-800 border rounded-2xl p-5">
+          <div class="font-display uppercase text-sm text-amber-light mb-3">Реквизиты</div>
+          <dl class="text-sm text-moss space-y-1">
+            <div><dt class="inline">Организация:</dt> <dd class="inline text-cream">ИП Барахоев М.А.</dd></div>
+            <div><dt class="inline">ИНН:</dt> <dd class="inline text-cream">060000000000</dd></div>
+            <div><dt class="inline">ОГРНИП:</dt> <dd class="inline text-cream">300000000000000</dd></div>
+            <div><dt class="inline">Лицензия Росгвардии:</dt> <dd class="inline text-cream">№ 0000000 от 01.01.2020</dd></div>
+            <div><dt class="inline">Срок действия:</dt> <dd class="inline text-cream">бессрочно</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="map-container">
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=44.930000%2C43.226000&z=15&text=г.%20Назрань%2C%20ул.%20Чеченская%2C%2032%2F1" loading="lazy"></iframe>
+        </div>
+        <div class="mt-4 bg-pine-800 border rounded-2xl p-5">
+          <div class="font-display uppercase text-sm text-amber-light mb-2">📍 Адрес</div>
+          <p class="text-cream font-bold">г. Назрань, ул. Чеченская, 32/1</p>
+          <p class="text-moss text-sm mt-1">Ежедневно 9:00–18:00, без выходных</p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <a href="tel:+79646010606" class="btn btn-amber text-sm">📞 Позвонить</a>
+            <a href="https://wa.me/79646010606" target="_blank" class="btn btn-whatsapp text-sm">💬 WhatsApp</a>
+            <a href="https://yandex.ru/maps/?text=Назрань+Чеченская+32" target="_blank" class="btn btn-ghost text-sm">🗺 Маршрут</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<footer id="contacts" class="bg-pine-950">
+  <div class="container py-16 grid md-grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-3 mb-5">
+        <span class="w-11 h-11 rounded-xl overflow-hidden border bg-pine-800 flex items-center justify-center font-display font-bold text-amber">ОиР</span>
+        <span class="font-display font-bold uppercase text-lg leading-none">Охотник <span class="text-amber">и</span> Рыболов</span>
+      </div>
+      <p class="text-sm text-moss leading-relaxed">Информационный каталог для бронирования гражданского оружия и патронов. Работаем по лицензии Росгвардии.</p>
+      <div class="mt-5 inline-flex items-center gap-2 bg-pine-800 border-amber rounded-full px-4 py-2 text-xs text-amber-light font-bold">18+
+        <div class="mt-5 inline-flex items-center gap-2 bg-pine-800 border-amber rounded-full px-4 py-2 text-xs text-amber-light font-bold">18+ · ТОЛЬКО ПО ЛИЦЕНЗИИ</div>
+    </div>
+    <div>
+      <div class="font-display uppercase text-sm tracking-widest text-amber-light mb-4">Разделы</div>
+      <ul class="space-y-3 text-sm text-moss">
+        <li><a href="#catalog" class="hover:text-cream transition">Каталог</a></li>
+        <li><a href="#articles" class="hover:text-cream transition">Статьи</a></li>
+        <li><a href="#law" class="hover:text-cream transition">ФЗ-150</a></li>
+        <li><a href="#about" class="hover:text-cream transition">О магазине</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-display uppercase text-sm tracking-widest text-amber-light mb-4">Контакты</div>
+      <ul class="space-y-3 text-sm text-moss">
+        <li>📍 г. Назрань, ул. Чеченская, 32/1</li>
+        <li><a href="tel:+79646010606" class="hover:text-cream transition">☎️ +7 (964) 601-06-06</a></li>
+        <li><a href="https://wa.me/79646010606" class="hover:text-cream transition">💬 WhatsApp</a></li>
+        <li> Ежедневно 9:00–18:00</li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-display uppercase text-sm tracking-widest text-amber-light mb-4">Документы</div>
+      <ul class="space-y-3 text-sm text-moss">
+        <li><a href="#" onclick="openPolicy();return false" class="hover:text-cream transition">Политика конфиденциальности</a></li>
+        <li><a href="#" onclick="openPolicy();return false" class="hover:text-cream transition">Согласие на обработку ПД</a></li>
+        <li><a href="#law" class="hover:text-cream transition">Правила покупки (ФЗ-150)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t">
+    <div class="container py-6 flex flex-col md:flex-row gap-3 items-center justify-between text-xs text-moss opacity-70">
+      <div>© 2008–2026 ИП Барахоев М.А. Лицензия ЦЛРР Росгвардии.</div>
+      <div>Не является публичной офертой (ст. 437 ГК РФ)</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ЛИСТ РЕЗЕРВИРОВАНИЯ -->
+<div id="drawerOverlay"></div>
+<aside id="drawer">
+  <div class="flex items-center justify-between px-6 border-b" style="height:72px">
+    <div class="font-display uppercase text-lg tracking-wide">Лист резерва <span class="text-moss text-sm normal-case">· бронирование</span></div>
+    <button id="drawerClose" class="btn btn-ghost p-2" aria-label="Закрыть">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+  </div>
+
+  <div id="cartView" class="flex-1 overflow-y-auto px-6 py-5 space-y-4"></div>
+
+  <form id="formView" class="hidden flex-1 overflow-y-auto px-6 py-5 space-y-4">
+    <div class="font-display uppercase text-base text-amber-light">Оформление заявки на бронь</div>
+    <input id="fName" class="field text-sm" placeholder="ФИО покупателя *" required>
+    <input id="fPhone" class="field text-sm" placeholder="Телефон * (например, +7 900 000-00-00)" type="tel" required>
+    <input id="fEmail" class="field text-sm" placeholder="Email (необязательно)" type="email">
+    <div id="licWrap">
+      <input id="fLic" class="field text-sm" placeholder="Серия и номер лицензии / разрешения Росгвардии *">
+      <p class="text-xs text-moss mt-2 leading-relaxed">В резерве есть оружие или патроны: выдача только при предъявлении оригинала лицензии и паспорта в магазине.</p>
+    </div>
+    <select id="fStore" class="field text-sm font-bold">
+      <option>Магазин «Охотник и Рыболов», ул. Чеченская, 32/1 (Самовывоз)</option>
+    </select>
+    <textarea id="fComment" class="field text-sm" rows="2" placeholder="Комментарий к заявке (необязательно)"></textarea>
+    
+    <label class="flex items-start gap-3 text-xs text-moss leading-relaxed cursor-pointer">
+      <input id="fAgree" type="checkbox" required class="mt-1">
+      <span>Мне есть 18 лет. Я даю согласие на обработку моих персональных данных в соответствии с <a href="#" onclick="openPolicy();return false" class="text-amber-light underline">Политикой конфиденциальности</a> (ФЗ-152) и ознакомлен с правилами оборота гражданского оружия в РФ.</span>
+    </label>
+    
+    <div class="flex gap-3 pt-1">
+      <button type="button" id="backToCart" class="btn btn-ghost text-sm text-moss">Назад</button>
+      <button type="submit" class="btn btn-amber flex-1 text-sm">Отправить заявку</button>
+    </div>
+  </form>
+
+  <div id="doneView" class="hidden flex-1 overflow-y-auto px-6 py-10 text-center">
+    <div class="w-20 h-20 mx-auto rounded-full flex items-center justify-center text-3xl mb-6" style="background:rgba(224,134,46,.15);border:1px solid rgba(224,134,46,.4)">✅</div>
+    <div class="font-display text-2xl uppercase mb-2">Заявка на бронь принята</div>
+    <div class="text-moss text-sm leading-relaxed mb-2">Номер заявки: <b id="orderNum" class="text-amber-light font-display text-lg"></b></div>
+    <p class="text-moss text-sm leading-relaxed mb-6">Менеджер свяжется с вами для подтверждения. Оплата только в магазине.</p>
+    <a href="https://wa.me/79646010606?text=Здравствуйте!%20Я%20оставил%20заявку%20на%20сайте" target="_blank" class="btn btn-whatsapp mb-4">💬 Написать в WhatsApp</a>
+    <br>
+    <button id="newOrder" class="btn btn-ghost text-sm text-cream">Продолжить просмотр каталога</button>
+  </div>
+
+  <div id="cartFooter" class="border-t px-6 py-5 bg-pine-950" style="background:rgba(11,19,14,.6)">
+    <div class="flex items-center justify-between mb-4">
+      <span class="text-moss text-sm">Примерная сумма:</span>
+      <span id="cartTotal" class="font-display text-2xl text-amber-light font-bold">0 ₽</span>
+    </div>
+    <button id="toCheckout" class="btn btn-amber w-full py-4 text-sm">Оформить заявку на бронь</button>
+    <p class="text-xs text-moss opacity-80 mt-3 text-center leading-relaxed">Онлайн-оплата не производится. Бронь не гарантирует 100% наличие до визита.</p>
+  </div>
+</aside>
+
+<!-- КАРТОЧКА ТОВАРА -->
+<div id="modal" class="modal">
+  <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
+  <div class="modal-content grid md-grid-cols-2" style="z-index:61">
+    <div class="imgwell p-8 flex items-center justify-center" style="min-height:260px">
+      <div id="mImg" class="w-full h-full flex items-center justify-center"></div>
+    </div>
+    <div class="p-8">
+      <div class="flex items-start justify-between gap-4 mb-3">
+        <div id="mCat" class="text-xs font-extrabold uppercase tracking-widest text-amber"></div>
+        <button id="modalClose" class="btn btn-ghost p-2" onclick="closeModal()" aria-label="Закрыть">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+        </button>
+      </div>
+      <h3 id="mName" class="font-display text-2xl md-text-3xl uppercase leading-tight mb-3"></h3>
+      <div id="mStock" class="mb-4"></div>
+      <dl id="mSpecs" class="space-y-2 text-sm mb-5"></dl>
+      <p id="mDesc" class="text-sm text-moss leading-relaxed mb-5"></p>
+      <div id="mLicNote" class="hidden bg-pine-950 border-amber rounded-xl px-4 py-3 text-xs text-amber-light leading-relaxed mb-5" style="background:rgba(11,19,14,.7)"></div>
+      <div class="flex items-center justify-between gap-4">
+        <div id="mPrice" class="font-display text-3xl text-amber-light font-bold"></div>
+        <div id="mActions"></div>
+      </div>
+      <div class="mt-4 pt-4 border-t flex gap-2 flex-wrap">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- МОДАЛКА ПОЛИТИКИ -->
+<div id="policyModal" class="modal">
+  <div class="modal-overlay" onclick="closePolicy()"></div>
+  <div class="modal-content p-8" style="z-index:61;max-width:48rem">
+    <div class="flex items-start justify-between gap-4 mb-6">
+      <h2 class="font-display text-2xl uppercase">Политика конфиденциальности</h2>
+      <button class="btn btn-ghost p-2" onclick="closePolicy()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+    </div>
+    <div class="text-sm text-moss leading-relaxed space-y-4">
+      <p><b class="text-cream">1. Общие положения</b><br>Настоящая Политика регулирует обработку персональных данных пользователей сайта «Охотник и Рыболов» (ИП Барахоев М.А., ИНН 060000000000) в соответствии с Федеральным законом № 152-ФЗ «О персональных данных» от 27.07.2006.</p>
+      <p><b class="text-cream">2. Цели обработки</b><br>Персональные данные обрабатываются исключительно для: обработки заявок на бронирование товаров, связи с пользователем для уточнения деталей заказа, предоставления консультаций по вопросам приобретения гражданского оружия.</p>
+      <p><b class="text-cream">3. Состав данных</b><br>ФИО, номер телефона, email (по желанию), серия и номер лицензии/разрешения Росгвардии (только при наличии оружия в заявке), комментарий к заявке.</p>
+      <p><b class="text-cream">4. Срок хранения</b><br>Данные хранятся в течение 1 года с момента оформления заявки, после чего автоматически удаляются.</p>
+      <p><b class="text-cream">5. Права пользователя</b><br>Вы имеете право в любой момент отозвать согласие на обработку ПД, направив письменное заявление на email: <a href="mailto:privacy@ohotnik-rybolov.ru" class="text-amber-light underline">privacy@ohotnik-rybolov.ru</a>.</p>
+      <p><b class="text-cream">6. Защита данных</b><br>Оператор применяет организационные и технические меры защиты ПД от неправомерного доступа, изменения, уничтожения.</p>
+      <p><b class="text-cream">7. Согласие на обработку</b><br>Отправляя заявку на сайте, пользователь подтверждает, что ознакомлен с настоящей Политикой и даёт добровольное согласие на обработку своих персональных данных.</p>
+    </div>
+  </div>
+</div>
+
+<!-- МОДАЛКА СТАТЬИ -->
+<div id="articleModal" class="modal">
+  <div class="modal-overlay" onclick="closeArticle()"></div>
+  <div class="modal-content p-8" style="z-index:61;max-width:48rem">
+    <div class="flex items-start justify-between gap-4 mb-6">
+      <h2 id="articleTitle" class="font-display text-2xl uppercase"></h2>
+      <button class="btn btn-ghost p-2" onclick="closeArticle()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+    </div>
+    <div id="articleContent" class="text-sm text-moss leading-relaxed space-y-4"></div>
+  </div>
+</div>
+
+<!-- АДМИН-ПАНЕЛЬ -->
+<div id="adminPanel">
+  <div class="sticky top-0 bg-pine-950 border-b px-6 py-4 flex items-center justify-between" style="z-index:10">
+    <h2 class="font-display text-xl uppercase tracking-wide">Админ-панель <span class="text-xs text-moss normal-case">(Доступ защищён)</span></h2>
+    <button id="adminClose" class="btn btn-ghost p-2" aria-label="Закрыть">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+  </div>
+  <div class="p-6 space-y-6">
+    <div id="loginForm">
+      <h3 class="font-display text-lg uppercase text-amber mb-3">Вход в систему</h3>
+      <div class="bg-pine-800 rounded-xl p-4 space-y-3">
+        <input type="password" id="adminPass" class="admin-input" placeholder="Введите пароль администратора">
+        <button id="loginBtn" class="admin-btn w-full">Войти</button>
+      </div>
+    </div>
+
+    <div id="adminContent" class="hidden space-y-6">
+      <div class="flex flex-wrap gap-2">
+        <button class="admin-tab active" data-tab="products">📦 Товары</button>
+        <button class="admin-tab" data-tab="orders">📋 Заявки <span id="ordersBadge" class="badge-new ml-2">0</span></button>
+        <button class="admin-tab" data-tab="stats">📊 Статистика</button>
+        <button class="admin-tab" data-tab="bulk">🔄 Массовое обновление</button>
+        <button class="admin-tab" data-tab="settings">⚙️ Настройки</button>
+      </div>
+
+      <div id="tab-products" class="admin-tab-content">
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Добавить / Изменить товар</h3>
+        <div class="bg-pine-800 rounded-xl p-4 space-y-3">
+          <input type="hidden" id="aEditId" value="">
+          <input id="aName" class="admin-input" placeholder="Название товара *">
+          <select id="aCategory" class="admin-input">
+            <option value="smooth">Гладкоствольное</option>
+            <option value="rifled">Нарезное</option>
+            <option value="ooop">ОООП (травмат)</option>
+            <option value="ammo-smooth">Патроны гладкоствольные</option>
+            <option value="ammo-rifled">Патроны нарезные</option>
+            <option value="ammo-ooop">Патроны травматические</option>
+          </select>
+          <input id="aCaliber" class="admin-input" placeholder="Калибр * (например, 12/70)">
+          <input id="aPrice" type="number" class="admin-input" placeholder="Цена (руб) *">
+          <input id="aQty" type="number" class="admin-input" placeholder="Количество в наличии *">
+          <select id="aStock" class="admin-input">
+            <option value="in">В наличии</option>
+            <option value="few">Осталось мало</option>
+            <option value="out">Нет в наличии</option>
+          </select>
+          <textarea id="aDesc" class="admin-input" rows="3" placeholder="Описание товара"></textarea>
+          <div>
+            <label class="block text-xs text-moss mb-2">Фото товара (можно несколько):</label>
+            <input type="file" id="aImgFile" accept="image/*" multiple class="admin-input">
+            <div id="imagePreviews" class="multi-image-upload"></div>
+          </div>
+          <button id="aAddBtn" class="admin-btn w-full">Сохранить товар</button>
+          <button id="aCancelEdit" class="hidden w-full text-center text-sm text-moss hover:text-cream mt-2">Отменить редактирование</button>
+        </div>
+        
+        <h3 class="font-display text-lg uppercase text-amber mb-3 mt-6">Управление товарами</h3>
+        <div class="bg-pine-800 rounded-xl p-4 overflow-x-auto">
+          <table class="admin-table">
+            <thead>
+              <tr><th>Фото</th><th>Название</th><th>Наличие</th><th>Цена</th><th>Просм.</th><th>Действия</th></tr>
+            </thead>
+            <tbody id="aProductsList"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab-orders" class="admin-tab-content hidden">
+        <h3 class="font-display text-lg uppercase text-amber mb-3">История заявок</h3>
+        <div class="bg-pine-800 rounded-xl p-4 overflow-x-auto">
+          <table class="admin-table">
+            <thead>
+              <tr><th>№</th><th>Дата</th><th>ФИО</th><th>Телефон</th><th>Товары</th><th>Сумма</th><th>Действия</th></tr>
+            </thead>
+            <tbody id="aOrdersList"></tbody>
+          </table>
+          <p id="noOrders" class="text-moss text-sm text-center py-8 hidden">Пока нет заявок</p>
+        </div>
+        <button id="clearOrders" class="admin-btn w-full mt-3" style="background:#dc2626">Очистить историю заявок</button>
+      </div>
+
+      <div id="tab-stats" class="admin-tab-content hidden">
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Общая статистика</h3>
+        <div class="grid grid-cols-2 md-grid-cols-4 gap-4 mb-6">
+          <div class="stat-card">
+            <div class="stat-value" id="statProducts">0</div>
+            <div class="stat-label">Товаров</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statOrders">0</div>
+            <div class="stat-label">Заявок</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statViews">0</div>
+            <div class="stat-label">Просмотров</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="statRevenue">0 ₽</div>
+            <div class="stat-label">Сумма броней</div>
+          </div>
+        </div>
+        
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Популярные товары</h3>
+        <div class="bg-pine-800 rounded-xl p-4 overflow-x-auto">
+          <table class="admin-table">
+            <thead><tr><th>Место</th><th>Название</th><th>Просмотры</th><th>В резерве</th></tr></thead>
+            <tbody id="aPopularList"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab-bulk" class="admin-tab-content hidden">
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Массовое обновление наличия</h3>
+        <p class="text-sm text-moss mb-4">Выберите категорию и установите наличие для всех товаров сразу. Удобно при поступлении партии.</p>
+        <div class="bg-pine-800 rounded-xl p-4 space-y-3">
+          <select id="bulkCategory" class="admin-input">
+            <option value="all">Все категории</option>
+            <option value="smooth">Гладкоствольное</option>
+            <option value="rifled">Нарезное</option>
+            <option value="ooop">ОООП</option>
+            <option value="ammo-smooth">Патроны гладкоствольные</option>
+            <option value="ammo-rifled">Патроны нарезные</option>
+            <option value="ammo-ooop">Патроны травматические</option>
+          </select>
+          <select id="bulkStock" class="admin-input">
+            <option value="in">В наличии</option>
+            <option value="few">Осталось мало</option>
+            <option value="out">Нет в наличии</option>
+          </select>
+          <input id="bulkQty" type="number" class="admin-input" placeholder="Количество для каждого товара (необязательно)">
+          <button id="bulkApply" class="admin-btn w-full">Применить ко всем товарам</button>
+        </div>
+      </div>
+
+      <div id="tab-settings" class="admin-tab-content hidden">
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Изменить пароль</h3>
+        <div class="bg-pine-800 rounded-xl p-4 space-y-3 mb-6">
+          <input type="password" id="newPass" class="admin-input" placeholder="Новый пароль (минимум 6 символов)">
+          <button id="changePassBtn" class="admin-btn w-full">Изменить пароль</button>
+        </div>
+        
+        <h3 class="font-display text-lg uppercase text-amber mb-3">Экспорт/Импорт БД</h3>
+        <div class="bg-pine-800 rounded-xl p-4 space-y-3 mb-6">
+          <button id="aExport" class="admin-btn w-full">Экспортировать БД (JSON)</button>
+          <label class="block">
+            <span class="text-sm text-moss mb-2 block"> Импортировать БД из файла:</span>
+            <input type="file" id="aImport" accept=".json" class="admin-input">
+          </label>
+        </div>
+
+        <button id="logoutBtn" class="admin-btn w-full" style="background:#dc2626"> Выйти из системы</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Плавающие кнопки -->
+<div class="fab" style="bottom:1.5rem;right:1.5rem">
+  <div class="relative">
+    <div id="shareMenu" class="share-menu">
+      <button onclick="shareWhatsApp()">💬 WhatsApp</button>
+      <button onclick="shareTelegram()">✈️ Telegram</button>
+      <button onclick="shareVK()">🌐 ВКонтакте</button>
+      <button onclick="shareCopy()">🔗 Копировать ссылку</button>
+    </div>
+    
+  </div>
+  
+  </a>
+  <a href="tel:+79646010606" class="fab-btn fab-phone" title="Позвонить">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+</div>
+
+<div id="toasts"></div>
+
+<script>
+/* ====================================================================
+   SVG-ИЛЛЮСТРАЦИИ (заглушки, пока не загружены реальные фото)
+==================================================================== */
+const SVG_PRODUCTS = {
+  shotgun_double: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><path d="M50 150 L280 140 L280 148 L330 148 L330 155 L280 155 L280 162 L50 152 Z" fill="#2c2c2c"/><path d="M330 148 L380 145 L380 158 L330 155 Z" fill="#1a1a1a"/><path d="M80 148 Q120 160 150 155 L150 170 Q120 180 90 170 Z" fill="#8b6f47"/><circle cx="160" cy="155" r="3" fill="#444"/></svg>`,
+  shotgun_auto: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><path d="M50 150 L300 145 L380 148 L380 155 L300 152 L50 152 Z" fill="#1a1a1a"/><path d="M60 152 Q100 170 140 165 L140 180 Q100 185 70 175 Z" fill="#2c2c2c"/><rect x="140" y="148" width="80" height="8" fill="#333"/></svg>`,
+  carbine: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><rect x="50" y="140" width="250" height="12" fill="#2c2c2c"/><rect x="300" y="138" width="80" height="14" fill="#1a1a1a"/><rect x="130" y="152" width="30" height="25" fill="#333" rx="2"/></svg>`,
+  rifle: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><rect x="50" y="148" width="220" height="10" fill="#2c2c2c"/><rect x="270" y="145" width="90" height="13" fill="#1a1a1a"/><rect x="120" y="115" width="80" height="25" fill="#444" rx="3"/></svg>`,
+  pistol: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><rect x="80" y="120" width="220" height="35" fill="#1a1a1a" rx="3"/><rect x="160" y="155" width="40" height="70" fill="#2c2c2c" rx="2" transform="rotate(-10 180 190)"/></svg>`,
+  ammo_box: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#f4f0e6"/><rect x="100" y="80" width="200" height="160" fill="#b02828" rx="5"/><text x="200" y="170" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f4f0e6" text-anchor="middle">ПАТРОНЫ</text></svg>`
+};
+
+const SVG_CATS = {
+  smooth: `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#15241b"/><path d="M50 150 L350 140 L350 162 L50 155 Z" fill="#2c2c2c"/><path d="M80 148 Q120 165 150 160 L150 175 Q120 182 90 175 Z" fill="#5c4a30"/></svg>`,
+  rifled: `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#0f1a14"/><rect x="50" y="140" width="250" height="12" fill="#2c2c2c"/><rect x="300" y="138" width="80" height="14" fill="#1a1a1a"/></svg>`,
+  ooop: `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#1c3125"/><rect x="80" y="120" width="220" height="35" fill="#1a1a1a" rx="3"/></svg>`,
+  'ammo-smooth': `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#15241b"/><rect x="100" y="80" width="200" height="160" fill="#b02828" rx="5"/><text x="200" y="170" font-family="sans-serif" font-size="40" font-weight="bold" fill="#f4f0e6" text-anchor="middle">12/70</text></svg>`,
+  'ammo-rifled': `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#0f1a14"/><circle cx="150" cy="150" r="20" fill="#b96a17"/><circle cx="200" cy="150" r="20" fill="#b96a17"/><circle cx="250" cy="150" r="20" fill="#b96a17"/></svg>`,
+  'ammo-ooop': `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#1c3125"/><rect x="100" y="80" width="200" height="160" fill="#1a1a1a" rx="5"/><rect x="100" y="80" width="200" height="40" fill="#e0862e" rx="5"/></svg>`
+};
+
+/* ====================================================================
+   🔑 КЛЮЧЕВАЯ ФУНКЦИЯ: универсальное отображение изображений
+   Различает: SVG-строку / base64 / URL
+==================================================================== */
+function renderImage(img, fallbackSvg, options = {}) {
+  const fallback = fallbackSvg || SVG_PRODUCTS.ammo_box;
+  const sizeClass = options.sizeClass || 'pimg';
+  
+  if (!img) return fallback;
+  
+  // Это base64-данные или URL — оборачиваем в <img>
+  if (img.startsWith('data:image') || img.startsWith('http://') || img.startsWith('https://')) {
+    return `<img src="${img}" alt="" class="${sizeClass} w-full h-full" style="object-fit:contain;max-height:100%;max-width:100%">`;
+  }
+  
+  // Это SVG-строка (содержит <svg>) — вставляем как есть
+  if (img.includes('<svg')) {
+    return img;
+  }
+  
+  return fallback;
+}
+
+function renderImageAdmin(img) {
+  if (!img) return '<div style="width:50px;height:50px;background:#333;border-radius:.25rem;display:flex;align-items:center;justify-content:center;color:#666;font-size:10px">Нет фото</div>';
+  if (img.startsWith('data:image') || img.startsWith('http')) {
+    return `<img src="${img}" style="width:50px;height:50px;object-fit:contain;border-radius:.25rem;background:#f4f0e6">`;
+  }
+  if (img.includes('<svg')) {
+    return `<div style="width:50px;height:50px;border-radius:.25rem;overflow:hidden">${img}</div>`;
+  }
+  return '<div style="width:50px;height:50px;background:#333;border-radius:.25rem"></div>';
+}
+
+/* ====================================================================
+   БАЗА ДАННЫХ
+==================================================================== */
+const DB_KEY = 'hunter_fisher_db_v3';
+const PASS_KEY = 'hunter_fisher_pass_v3';
+const SESSION_KEY = 'hunter_fisher_session_v3';
+const ORDERS_KEY = 'hunter_fisher_orders_v3';
+
+const DEFAULT_PRODUCTS = {
+  smooth: [
+    {id:101, name:'МР-27ЕМ 12/76, орех', caliber:'12/76', price:54800, badge:'Хит', stock:'in', qty:4, 
+     desc:'Классическая двустволка с вертикальным расположением стволов от завода «Байкал».',
+     specs:{'Тип':'Двуствольное, вертикалка','Калибр':'12/76','Длина стволов':'710 мм','Производитель':'Концерн «Байкал»'},
+     img:SVG_PRODUCTS.shotgun_double, views:247, orders:18},
+    {id:102, name:'МР-155 12/76, пластик', caliber:'12/76', price:48500, stock:'in', qty:3,
+     desc:'Полуавтоматическое гладкоствольное ружьё с газоотводной автоматикой.',
+     specs:{'Тип':'Полуавтомат','Калибр':'12/76','Производитель':'Концерн «Байкал»'},
+     img:SVG_PRODUCTS.shotgun_auto, views:189, orders:12}
+  ],
+  rifled: [
+    {id:201, name:'Карабин Сайга МК 7,62×39', caliber:'7,62×39', price:56800, stock:'in', qty:3,
+     desc:'Самозарядный охотничий карабин на платформе АК.',
+     specs:{'Тип':'Самозарядный карабин','Калибр':'7,62×39','Производитель':'Концерн «Калашников»'},
+     img:SVG_PRODUCTS.carbine, views:312, orders:22},
+    {id:202, name:'Карабин Тигр .308 Win', caliber:'.308 Win', price:89000, badge:'Премиум', stock:'few', qty:1,
+     desc:'Снайперская винтовка на базе СВД.',
+     specs:{'Тип':'Самозарядная винтовка','Калибр':'.308 Win','Производитель':'Концерн «Калашников»'},
+     img:SVG_PRODUCTS.rifle, views:201, orders:8}
+  ],
+  ooop: [
+    {id:301, name:'Пистолет Grand Power T12 10×28', caliber:'10×28', price:78900, stock:'few', qty:2,
+     desc:'Компактный травматический пистолет под патрон 10×28.',
+     specs:{'Тип':'ОООП, травматический','Калибр':'10×28','Ёмкость':'10 патронов'},
+     img:SVG_PRODUCTS.pistol, views:156, orders:7}
+  ],
+  'ammo-smooth': [
+    {id:401, name:'Патроны Record 12/70, дробь №5 (25 шт)', caliber:'12/70', price:890, stock:'in', qty:120,
+     desc:'Классические дробовые патроны для охоты.',
+     specs:{'Калибр':'12/70','Упаковка':'25 шт'},
+     img:SVG_PRODUCTS.ammo_box, views:421, orders:45},
+    {id:402, name:'Патроны Record 12/70, картечь 7,15 (25 шт)', caliber:'12/70', price:940, stock:'in', qty:85,
+     desc:'Картечные патроны для охоты на кабана.',
+     specs:{'Калибр':'12/70','Упаковка':'25 шт'},
+     img:SVG_PRODUCTS.ammo_box, views:287, orders:31}
+  ],
+  'ammo-rifled': [
+    {id:404, name:'Патроны БПЗ 7,62×39 HP (20 шт)', caliber:'7,62×39', price:600, stock:'in', qty:60,
+     desc:'Охотничьи патроны с полуоболочечной пулей HP.',
+     specs:{'Калибр':'7,62×39','Упаковка':'20 шт'},
+     img:SVG_PRODUCTS.ammo_box, views:356, orders:38}
+  ],
+  'ammo-ooop': [
+    {id:406, name:'Патроны Техкрим 10×28 Maximum (20 шт)', caliber:'10×28', price:800, stock:'in', qty:200,
+     desc:'Травматические патроны с резиновой пулей.',
+     specs:{'Калибр':'10×28','Упаковка':'20 шт'},
+     img:SVG_PRODUCTS.ammo_box, views:267, orders:29}
+  ]
+};
+
+function loadDB() {
+  try {
+    const saved = localStorage.getItem(DB_KEY);
+    if (!saved) return JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+    return JSON.parse(saved);
+  } catch(e) { return JSON.parse(JSON.stringify(DEFAULT_PRODUCTS)); }
+}
+function saveDB(db) { try { localStorage.setItem(DB_KEY, JSON.stringify(db)); } catch(e) {} }
+function hashPassword(pass) {
+  let hash = 0;
+  for (let i = 0; i < pass.length; i++) { hash = ((hash << 5) - hash) + pass.charCodeAt(i); hash = hash & hash; }
+  return hash.toString();
+}
+function checkPassword(pass) {
+  const stored = localStorage.getItem(PASS_KEY);
+  if (!stored) { localStorage.setItem(PASS_KEY, hashPassword('admin123')); return pass === 'admin123'; }
+  return hashPassword(pass) === stored;
+}
+function changePassword(newPass) { localStorage.setItem(PASS_KEY, hashPassword(newPass)); }
+function isLoggedIn() {
+  const session = localStorage.getItem(SESSION_KEY);
+  if (!session) return false;
+  return (Date.now() - JSON.parse(session).time) < 24 * 60 * 60 * 1000;
+}
+function login() { localStorage.setItem(SESSION_KEY, JSON.stringify({time: Date.now()})); }
+function logout() { localStorage.removeItem(SESSION_KEY); }
+function loadOrders() { try { return JSON.parse(localStorage.getItem(ORDERS_KEY) || '[]'); } catch(e) { return []; } }
+function saveOrders(orders) { try { localStorage.setItem(ORDERS_KEY, JSON.stringify(orders)); } catch(e) {} }
+
+let DB = loadDB();
+if(!localStorage.getItem(DB_KEY)) saveDB(DB);
+let ORDERS = loadOrders();
+
+const CATS = [
+  {id:'smooth', name:'Гладкоствольное', note:'Ружья 12 и 16 калибров'},
+  {id:'rifled', name:'Нарезное', note:'Карабины и винтовки'},
+  {id:'ooop', name:'Самооборона (ОООП)', note:'Травматические пистолеты'},
+  {id:'ammo-smooth', name:'Патроны гладкоствольные', note:'Дробь, картечь, пуля'},
+  {id:'ammo-rifled', name:'Патроны нарезные', note:'Промежуточные и винтовочные'},
+  {id:'ammo-ooop', name:'Патроны травматические', note:'10×28, 18×45'}
+];
+
+const LIC_CATS = ['smooth','rifled','ooop','ammo-smooth','ammo-rifled','ammo-ooop'];
+
+function getAllProducts() {
+  const all = [];
+  Object.keys(DB).forEach(catId => { DB[catId].forEach(p => all.push({...p, cat:catId})); });
+  return all;
+}
+
+let PRODUCTS = getAllProducts();
+const state = { cat:'all', q:'', sort:'pop', onlyInStock:false };
+let cart = new Map();
+try{ const saved = JSON.parse(localStorage.getItem('hf_cart')||'[]'); saved.forEach(([k,v])=>cart.set(k,v)); }catch(e){}
+let tempImages = [];
+
+const fmt = n => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
+const catName = id => (CATS.find(c=>c.id===id)||{}).name || '';
+const $ = s => document.querySelector(s);
+
+const STOCK_META = {
+  in:  {cls:'stock-in',  label:'В наличии'},
+  few: {cls:'stock-few', label:'Осталось мало'},
+  out: {cls:'stock-out', label:'Нет в наличии'}
+};
+const stockLabel = p => {
+  const m = STOCK_META[p.stock];
+  if(p.stock==='out') return `✕ ${m.label}`;
+  return `${m.label} — ${p.qty} шт`;
+};
+
+/* ====================================================================
+   AGE GATE
+==================================================================== */
+(function(){
+  let ok = false; try{ ok = localStorage.getItem('hf_age')==='1'; }catch(e){}
+  if(ok){ $('#ageGate').classList.add('hidden'); }
+  $('#ageYes').onclick = () => { try{localStorage.setItem('hf_age','1');}catch(e){} $('#ageGate').classList.add('hidden'); };
+  $('#ageNo').onclick  = () => { $('#ageGate').classList.add('hidden'); $('#ageDeny').classList.remove('hidden'); };
+})();
+
+/* ====================================================================
+   КАТЕГОРИИ
+==================================================================== */
+(function renderCats(){
+  $('#catGrid').innerHTML = CATS.map(c=>`
+    <button data-cat="${c.id}" class="catcard group relative rounded-2xl overflow-hidden border hover:border-amber transition text-left reveal" style="height:13rem">
+      <div class="absolute inset-0">${SVG_CATS[c.id]}</div>
+      <div class="absolute inset-0" style="background:linear-gradient(to top,var(--pine-950),rgba(11,19,14,.3),transparent)"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-4">
+        <div class="font-display uppercase font-bold text-base leading-tight">${c.name}</div>
+        <div class="text-xs text-moss mt-1">${(DB[c.id]||[]).length} поз. · ${c.note}</div>
+        <div class="mt-2 text-xs font-extrabold uppercase tracking-widest text-amber-light opacity-0 group-hover:opacity-100 transition">Смотреть →</div>
+      </div>
+    </button>`).join('');
+  document.querySelectorAll('.catcard').forEach(b=>b.onclick=()=>{
+    state.cat = b.dataset.cat; syncChips(); renderGrid();
+    document.getElementById('catalog').scrollIntoView({behavior:'smooth'});
+  });
+})();
+
+function renderChips(){
+  const all = [{id:'all',name:'Все товары'},...CATS.map(c=>({id:c.id,name:c.name}))];
+  $('#chipRow').innerHTML = all.map(c=>`<button data-chip="${c.id}" class="chip"><span class="chip-name">${c.name}</span></button>`).join('');
+  document.querySelectorAll('[data-chip]').forEach(b=>b.onclick=()=>{ state.cat=b.dataset.chip; syncChips(); renderGrid(); });
+  syncChips();
+}
+function syncChips(){ document.querySelectorAll('[data-chip]').forEach(b=>b.classList.toggle('active', b.dataset.chip===state.cat)); }
+
+function filtered(){
+  let list = PRODUCTS.filter(p => (state.cat==='all'||p.cat===state.cat));
+  if(state.onlyInStock) list = list.filter(p => p.stock!=='out');
+  if(state.q){
+    const q = state.q.toLowerCase().trim();
+    list = list.filter(p => (p.name+' '+p.caliber+' '+p.desc+' '+catName(p.cat)).toLowerCase().includes(q));
+  }
+  const rank = s => s==='in'?0 : s==='few'?1 : 2;
+  if(state.sort==='asc')   list = [...list].sort((a,b)=>a.price-b.price);
+  if(state.sort==='desc')  list = [...list].sort((a,b)=>b.price-a.price);
+  if(state.sort==='stock') list = [...list].sort((a,b)=>rank(a.stock)-rank(b.stock));
+  if(state.sort==='pop')   list = [...list].sort((a,b)=>(b.views||0)-(a.views||0));
+  return list;
+}
+
+/* ====================================================================
+   ✅ ИСПРАВЛЕНО: Рендер карточек товаров с реальными фото
+==================================================================== */
+function renderGrid(){
+  const list = filtered();
+  $('#emptyState').classList.toggle('hidden', list.length>0);
+  $('#productGrid').innerHTML = list.map(p=>{
+    const lic = LIC_CATS.includes(p.cat);
+    const m = STOCK_META[p.stock];
+    const isOut = p.stock==='out';
+    const imgHtml = renderImage(p.img, SVG_CATS[p.cat]);
+    return `
+    <article class="pcard ${isOut?'is-out':''} reveal in">
+      <div class="imgwell">
+        <div class="pimg w-full h-full flex items-center justify-center">${imgHtml}</div>
+        ${p.badge?`<span class="absolute top-3 left-3 ${p.badge==='Хит'?'badge-hit':'badge-new'}">${p.badge}</span>`:''}
+        ${lic?`<span class="absolute top-3 right-3 text-xs font-extrabold uppercase tracking-wider rounded-full px-3 py-1" style="background:rgba(11,19,14,.85);color:var(--amber-light);border:1px solid rgba(224,134,46,.4)">Лицензия</span>`:''}
+        ${isOut?`<span class="absolute bottom-0 left-0 right-0 text-center text-xs font-extrabold uppercase tracking-widest py-2" style="background:rgba(11,19,14,.8);color:#e5695e">Нет в наличии</span>`:''}
+      </div>
+      <div class="p-5 flex flex-col grow">
+        <div class="text-xs font-extrabold uppercase tracking-widest text-amber mb-2">${catName(p.cat)}</div>
+        <h3 class="font-display text-lg uppercase leading-snug mb-1">${p.name}</h3>
+        <div class="text-xs text-moss mb-3">Калибр: <b class="text-cream">${p.caliber}</b></div>
+        <div class="stock ${m.cls} mb-4">${stockLabel(p)}</div>
+        <div class="mt-auto flex items-end justify-between gap-3">
+          <div><div class="font-display text-xl text-amber-light font-bold leading-none">${fmt(p.price)}</div></div>
+          <div class="flex gap-2">
+            <button data-info="${p.id}" class="btn btn-ghost p-2" title="Подробнее">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.2"/></svg>
+            </button>
+            ${isOut
+              ? `<button data-notify="${p.id}" class="btn btn-notify text-xs px-3">Сообщить</button>`
+              : `<button data-add="${p.id}" class="btn btn-amber text-xs px-4">В резерв</button>`}
+          </div>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+  document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>addToCart(+b.dataset.add));
+  document.querySelectorAll('[data-notify]').forEach(b=>b.onclick=()=>{
+    const p = PRODUCTS.find(x=>x.id===+b.dataset.notify);
+    toast(`Запрос отправлен: сообщим о поступлении «${p.name}»`);
+  });
+  document.querySelectorAll('[data-info]').forEach(b=>b.onclick=()=>openModal(+b.dataset.info));
+}
+
+$('#searchInput').addEventListener('input', e=>{ state.q=e.target.value; renderGrid(); });
+$('#sortSelect').addEventListener('change', e=>{ state.sort=e.target.value; renderGrid(); });
+$('#resetFilters').onclick = ()=>{ state.cat='all'; state.q=''; state.onlyInStock=false; $('#searchInput').value=''; state.sort='pop'; $('#sortSelect').value='pop'; syncStockToggle(); syncChips(); renderGrid(); };
+
+function syncStockToggle(){
+  const box = $('#stockToggleBox');
+  $('#stockToggle').classList.toggle('border-amber', state.onlyInStock);
+  box.innerHTML = state.onlyInStock ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#f2a95c" stroke-width="3.5" stroke-linecap="round"><path d="M4 12l6 6L20 6"/></svg>' : '';
+  box.style.borderColor = state.onlyInStock ? '#e0862e' : '';
+}
+$('#stockToggle').onclick = ()=>{ state.onlyInStock=!state.onlyInStock; syncStockToggle(); renderGrid(); };
+
+/* ====================================================================
+   ✅ ИСПРАВЛЕНО: Модальное окно с реальными фото
+==================================================================== */
+let modalId = null;
+function openModal(id){
+  const p = PRODUCTS.find(x=>x.id===id); if(!p) return;
+  modalId = id;
+  incrementView(id);
+  
+  $('#mImg').innerHTML = renderImage(p.img, SVG_CATS[p.cat]);
+  $('#mCat').textContent = catName(p.cat);
+  $('#mName').textContent = p.name;
+  $('#mDesc').textContent = p.desc;
+  $('#mPrice').textContent = fmt(p.price);
+  const m = STOCK_META[p.stock];
+  $('#mStock').innerHTML = `<span class="stock ${m.cls}">${stockLabel(p)}</span>`;
+  $('#mSpecs').innerHTML = Object.entries(p.specs||{}).map(([k,v])=>`
+    <div class="flex justify-between gap-4 border-b pb-2" style="border-color:rgba(255,255,255,.08)">
+      <dt class="text-moss">${k}</dt><dd class="text-right font-bold">${v}</dd>
+    </div>`).join('');
+  const lic = LIC_CATS.includes(p.cat);
+  $('#mLicNote').classList.toggle('hidden', !lic);
+  if(lic) $('#mLicNote').innerHTML = '⚖️ Продажа <b>только в магазине</b> при предъявлении паспорта и действующей лицензии Росгвардии (ФЗ № 150-ФЗ).';
+  $('#mActions').innerHTML = p.stock==='out'
+    ? `<button id="mNotify" class="btn btn-notify text-sm px-6 py-3">Сообщить о поступлении</button>`
+    : `<button id="mAdd" class="btn btn-amber text-sm px-7 py-3">Добавить в резерв</button>`;
+  if(p.stock==='out'){ $('#mNotify').onclick = ()=>{ toast(`Запрос отправлен`); closeModal(); }; }
+  else { $('#mAdd').onclick = ()=>{ addToCart(modalId); closeModal(); }; }
+  $('#modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){ $('#modal').classList.remove('open'); document.body.style.overflow=''; }
+document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ closeModal(); closeDrawer(); closePolicy(); closeArticle(); } });
+
+function incrementView(id) {
+  Object.keys(DB).forEach(cat => {
+    const idx = DB[cat].findIndex(p => p.id === id);
+    if (idx !== -1) {
+      DB[cat][idx].views = (DB[cat][idx].views || 0) + 1;
+      saveDB(DB);
+      PRODUCTS = getAllProducts();
+    }
+  });
+}
+
+function shareWhatsApp(){
+  const p = PRODUCTS.find(x=>x.id===modalId);
+  const text = p ? `Посмотри: ${p.name} — ${fmt(p.price)}%0A${location.href}` : `Магазин Охотник и Рыболов: ${location.href}`;
+  window.open(`https://wa.me/?text=${text}`, '_blank');
+}
+function shareTelegram(){
+  const p = PRODUCTS.find(x=>x.id===modalId);
+  const text = p ? `${p.name} — ${fmt(p.price)}` : 'Магазин Охотник и Рыболов';
+  window.open(`https://t.me/share/url?url=${encodeURIComponent(location.href)}&text=${encodeURIComponent(text)}`, '_blank');
+}
+function shareVK(){ window.open(`https://vk.com/share.php?url=${encodeURIComponent(location.href)}`, '_blank'); }
+function shareCopy(){
+  const p = PRODUCTS.find(x=>x.id===modalId);
+  const text = p ? `${p.name} — ${fmt(p.price)} | ${location.href}` : location.href;
+  navigator.clipboard.writeText(text).then(()=>toast('Ссылка скопирована'));
+}
+function toggleShareMenu(){ $('#shareMenu').classList.toggle('open'); }
+document.addEventListener('click', e=>{ if(!e.target.closest('.fab')) $('#shareMenu').classList.remove('open'); });
+
+/* ====================================================================
+   ✅ ИСПРАВЛЕНО: Корзина с реальными фото
+==================================================================== */
+function saveCart(){ try{ localStorage.setItem('hf_cart', JSON.stringify([...cart])); }catch(e){} }
+function cartQty(){ let n=0; cart.forEach(v=>n+=v); return n; }
+function cartSum(){ let s=0; cart.forEach((v,k)=>{ const p=PRODUCTS.find(x=>x.id===k); if(p) s+=p.price*v; }); return s; }
+function addToCart(id){
+  const p = PRODUCTS.find(x=>x.id===id); if(!p) return;
+  if(p.stock==='out'){ toast('Товара нет в наличии'); return; }
+  const max = p.stock==='few' ? p.qty : 99;
+  const cur = cart.get(id)||0;
+  if(cur+1 > max){ toast(`Больше ${max} шт нельзя — остаток в зале`); return; }
+  cart.set(id,cur+1); saveCart(); syncCart();
+  Object.keys(DB).forEach(cat => {
+    const idx = DB[cat].findIndex(x => x.id === id);
+    if (idx !== -1) { DB[cat][idx].orders = (DB[cat][idx].orders || 0) + 1; }
+  });
+  saveDB(DB);
+  toast(`«${p.name}» — добавлен в резерв`);
+}
+function syncCart(){
+  $('#cartCount').textContent = cartQty();
+  $('#cartTotal').textContent = fmt(cartSum());
+  const box = $('#cartView');
+  if(cart.size===0){
+    box.innerHTML = `<div class="text-center py-16">
+      <div class="text-5xl mb-4"></div>
+      <div class="font-display uppercase text-lg mb-2">Лист резерва пуст</div>
+      <p class="text-moss text-sm leading-relaxed">Добавьте товары из каталога.</p>
+    </div>`;
+    $('#cartFooter').classList.add('hidden');
+  } else {
+    $('#cartFooter').classList.remove('hidden');
+    box.innerHTML = [...cart].map(([id,qty])=>{
+      const p = PRODUCTS.find(x=>x.id===id); if(!p) return '';
+      const lic = LIC_CATS.includes(p.cat);
+      const imgHtml = renderImage(p.img, SVG_CATS[p.cat]);
+      return `<div class="flex gap-4 bg-pine-800 border rounded-2xl p-3">
+        <div class="imgwell rounded-xl overflow-hidden flex items-center justify-center p-2" style="width:5rem;height:5rem;min-width:5rem">
+          ${imgHtml}
+        </div>
+        <div class="grow">
+          <div class="text-sm font-bold leading-snug truncate">${p.name}</div>
+          <div class="text-xs text-moss mt-1">${catName(p.cat)}${lic?' · <span class="text-amber-light font-bold">лицензия</span>':''}</div>
+          <div class="flex items-center justify-between mt-2">
+            <div class="flex items-center gap-1 bg-pine-950 rounded-lg p-1">
+              <button data-dec="${id}" class="w-7 h-7 rounded bg-pine-700 hover:bg-pine-600 transition font-bold">−</button>
+              <span class="w-8 text-center text-sm font-bold">${qty}</span>
+              <button data-inc="${id}" class="w-7 h-7 rounded bg-pine-700 hover:bg-pine-600 transition font-bold">+</button>
+            </div>
+            <div class="font-display text-amber-light font-bold">${fmt(p.price*qty)}</div>
+          </div>
+        </div>
+        <button data-del="${id}" class="self-start text-moss hover:text-red-400 transition p-1" title="Убрать">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M7 7l1 13h8l1-13"/></svg>
+        </button>
+      </div>`;
+    }).join('');
+    box.querySelectorAll('[data-inc]').forEach(b=>b.onclick=()=>addToCart(+b.dataset.inc));
+    box.querySelectorAll('[data-dec]').forEach(b=>b.onclick=()=>{ const k=+b.dataset.dec; const v=cart.get(k)-1; v<=0?cart.delete(k):cart.set(k,v); saveCart(); syncCart(); });
+    box.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{ cart.delete(+b.dataset.del); saveCart(); syncCart(); });
+  }
+}
+function openDrawer(){ $('#drawer').classList.add('open'); $('#drawerOverlay').classList.add('open'); document.body.style.overflow='hidden'; showView('cart'); }
+function closeDrawer(){ $('#drawer').classList.remove('open'); $('#drawerOverlay').classList.remove('open'); document.body.style.overflow=''; }
+function showView(v){
+  $('#cartView').classList.toggle('hidden', v!=='cart');
+  $('#formView').classList.toggle('hidden', v!=='form');
+  $('#doneView').classList.toggle('hidden', v!=='done');
+  $('#cartFooter').classList.toggle('hidden', v!=='cart' || cart.size===0);
+  if(v==='form'){
+    const hasLic = [...cart.keys()].some(id=>LIC_CATS.includes(PRODUCTS.find(p=>p.id===id)?.cat));
+    $('#licWrap').classList.toggle('hidden', !hasLic);
+    $('#fLic').required = hasLic;
+  }
+}
+$('#cartBtn').onclick = openDrawer;
+$('#drawerClose').onclick = closeDrawer;
+$('#drawerOverlay').onclick = closeDrawer;
+$('#toCheckout').onclick = ()=>showView('form');
+$('#backToCart').onclick = ()=>showView('cart');
+$('#newOrder').onclick = ()=>{ showView('cart'); closeDrawer(); };
+$('#formView').addEventListener('submit', e=>{
+  e.preventDefault();
+  const orderNum = 'БР-' + String(Date.now()).slice(-6);
+  $('#orderNum').textContent = orderNum;
+  const order = {
+    id: orderNum,
+    date: new Date().toLocaleString('ru-RU'),
+    name: $('#fName').value,
+    phone: $('#fPhone').value,
+    email: $('#fEmail').value || '',
+    license: $('#fLic').value || '',
+    comment: $('#fComment').value,
+    items: [...cart].map(([id, qty]) => {
+      const p = PRODUCTS.find(x => x.id === id);
+      return { id, name: p?.name, price: p?.price, qty };
+    }),
+    total: cartSum()
+  };
+  ORDERS.push(order);
+  saveOrders(ORDERS);
+  cart.clear(); saveCart(); syncCart();
+  e.target.reset();
+  showView('done');
+  toast('Заявка отправлена. Менеджер свяжется с вами.');
+});
+
+/* ====================================================================
+   ПОЛИТИКА И СТАТЬИ
+==================================================================== */
+function openPolicy(){ $('#policyModal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closePolicy(){ $('#policyModal').classList.remove('open'); document.body.style.overflow=''; }
+
+const ARTICLES = {
+  license: {
+    title: 'Как получить лицензию Росгвардии',
+    content: `<p><b class="text-cream">Шаг 1: Обучение</b><br>Запишитесь в лицензированный учебный центр. Курс безопасного обращения с оружием занимает 1-2 недели. Стоимость: 5 000–8 000 ₽.</p>
+    <p><b class="text-cream">Шаг 2: Медкомиссия</b><br>Пройдите медосмотр в аккредитованном медучреждении. Нужны формы № 002-О/у и № 003-О/у.</p>
+    <p><b class="text-cream">Шаг 3: Установка сейфа</b><br>До прихода инспектора установите металлический сейф с замком.</p>
+    <p><b class="text-cream">Шаг 4: Подача заявления</b><br>Подайте заявление через Госуслуги. Госпошлина: 2 000 ₽.</p>
+    <p><b class="text-cream">Шаг 5: Получение лицензии</b><br>Срок рассмотрения — до 30 дней.</p>
+    <p><b class="text-amber">💡 Совет:</b> Консультанты нашего магазина бесплатно помогут вам со списком документов.</p>`
+  },
+  review: {
+    title: 'Топ-4 ружей для охоты в 2026 году',
+    content: `<p><b class="text-cream">1. МР-27ЕМ (ИЖ-27)</b> — 54 800 ₽<br>Классика отечественной охоты. Вертикалка 12/76 с ореховой ложей.</p>
+    <p><b class="text-cream">2. МР-155</b> — 48 500 ₽<br>Полуавтомат для тех, кто ценит скорострельность.</p>
+    <p><b class="text-cream">3. Сайга-12</b> — 62 000 ₽<br>Гладкоствольный «Калашников» в 12 калибре.</p>
+    <p><b class="text-cream">4. Benelli M2</b> — от 165 000 ₽<br>Итальянский полуавтомат премиум-класса.</p>
+    <p><b class="text-amber">💡 Совет:</b> Приходите в наш магазин подержать ружья в руках.</p>`
+  },
+  hunting: {
+    title: 'Правила охоты в Ингушетии 2026',
+    content: `<p><b class="text-cream">Сроки охотничьего сезона:</b></p>
+    <ul style="list-style:disc;padding-left:1.5rem">
+      <li>Пернатая дичь (утка, гусь): с третьей субботы августа по 31 декабря</li>
+      <li>Кабан: с 1 июня по 28(29) февраля</li>
+      <li>Косуля: с 1 октября по 31 декабря</li>
+    </ul>
+    <p><b class="text-cream">Документы охотника:</b></p>
+    <ul style="list-style:disc;padding-left:1.5rem">
+      <li>Охотничий билет единого федерального образца</li>
+      <li>Разрешение на добычу охотничьих ресурсов</li>
+      <li>Разрешение на оружие и само оружие</li>
+      <li>Паспорт</li>
+    </ul>
+    <p><b class="text-amber">💡 Совет:</b> В нашем магазине мы поможем оформить все документы.</p>`
+  }
+};
+
+function openArticle(key){
+  const a = ARTICLES[key]; if(!a) return;
+  $('#articleTitle').textContent = a.title;
+  $('#articleContent').innerHTML = a.content;
+  $('#articleModal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeArticle(){ $('#articleModal').classList.remove('open'); document.body.style.overflow=''; }
+
+/* ====================================================================
+   ✅ ИСПРАВЛЕНО: Админ-панель с реальными фото
+==================================================================== */
+function openAdmin(){ 
+  $('#adminPanel').classList.add('open'); 
+  if(isLoggedIn()) {
+    $('#loginForm').classList.add('hidden');
+    $('#adminContent').classList.remove('hidden');
+    renderAdminProducts();
+    renderOrders();
+    renderStats();
+    updateOrdersBadge();
+  } else {
+    $('#loginForm').classList.remove('hidden');
+    $('#adminContent').classList.add('hidden');
+  }
+}
+function closeAdmin(){ $('#adminPanel').classList.remove('open'); resetAdminForm(); }
+$('#adminToggle').onclick = openAdmin;
+$('#adminClose').onclick = closeAdmin;
+
+document.querySelectorAll('.admin-tab').forEach(tab => {
+  tab.onclick = () => {
+    document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.admin-tab-content').forEach(c => c.classList.add('hidden'));
+    tab.classList.add('active');
+    $(`#tab-${tab.dataset.tab}`).classList.remove('hidden');
+    if (tab.dataset.tab === 'orders') renderOrders();
+    if (tab.dataset.tab === 'stats') renderStats();
+  };
+});
+
+$('#loginBtn').onclick = ()=>{
+  const pass = $('#adminPass').value;
+  if(checkPassword(pass)) {
+    login();
+    $('#loginForm').classList.add('hidden');
+    $('#adminContent').classList.remove('hidden');
+    renderAdminProducts();
+    renderOrders();
+    renderStats();
+    updateOrdersBadge();
+    toast('Вход выполнен');
+  } else {
+    toast('Неверный пароль');
+  }
+};
+
+$('#logoutBtn').onclick = ()=>{ logout(); closeAdmin(); toast('Вы вышли'); };
+
+function updateOrdersBadge() {
+  const count = ORDERS.length;
+  $('#ordersBadge').textContent = count;
+  $('#ordersBadge').style.display = count > 0 ? 'inline' : 'none';
+}
+
+function resetAdminForm() {
+  $('#aEditId').value = '';
+  $('#aName').value = '';
+  $('#aCaliber').value = '';
+  $('#aPrice').value = '';
+  $('#aQty').value = '';
+  $('#aDesc').value = '';
+  $('#aImgFile').value = '';
+  $('#aAddBtn').textContent = 'Сохранить товар';
+  $('#aCancelEdit').classList.add('hidden');
+  tempImages = [];
+  renderImagePreviews();
+}
+
+function renderImagePreviews() {
+  $('#imagePreviews').innerHTML = tempImages.map((img, i) => `
+    <div class="image-preview">
+      <img src="${img}" alt="">
+      <button onclick="removeImage(${i})" type="button">×</button>
+    </div>
+  `).join('');
+}
+window.removeImage = function(i) {
+  tempImages.splice(i, 1);
+  renderImagePreviews();
+};
+
+$('#aImgFile').addEventListener('change', e=>{
+  const files = Array.from(e.target.files);
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = evt => {
+      tempImages.push(evt.target.result);
+      renderImagePreviews();
+    };
+    reader.readAsDataURL(file);
+  });
+  e.target.value = '';
+});
+
+/* ✅ ИСПРАВЛЕНО: Таблица товаров в админке с правильным отображением фото */
+function renderAdminProducts(){
+  const tbody = $('#aProductsList');
+  tbody.innerHTML = '';
+  Object.keys(DB).forEach(catId => {
+    DB[catId].forEach(p => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${renderImageAdmin(p.img)}</td>
+        <td>${p.name}</td>
+        <td><span class="stock ${STOCK_META[p.stock].cls}">${stockLabel(p)}</span></td>
+        <td>${fmt(p.price)}</td>
+        <td>${p.views || 0}</td>
+        <td>
+          <button data-edit="${p.id}" data-cat="${catId}" class="admin-btn text-xs px-2 py-1 mr-2">✏️</button>
+          <button data-del="${p.id}" data-cat="${catId}" class="admin-btn text-xs px-2 py-1" style="background:#dc2626">🗑</button>
+        </td>
+      `;
+      tbody.appendChild(row);
+    });
+  });
+  
+  tbody.querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>{
+    const id = +b.dataset.edit;
+    const cat = b.dataset.cat;
+    const p = DB[cat].find(x=>x.id===id);
+    if(p){
+      $('#aEditId').value = id;
+      $('#aCategory').value = cat;
+      $('#aName').value = p.name;
+      $('#aCaliber').value = p.caliber;
+      $('#aPrice').value = p.price;
+      $('#aQty').value = p.qty;
+      $('#aStock').value = p.stock;
+      $('#aDesc').value = p.desc;
+      tempImages = (p.img && (p.img.startsWith('data:image') || p.img.startsWith('http'))) ? [p.img] : [];
+      renderImagePreviews();
+      $('#aAddBtn').textContent = 'Обновить товар';
+      $('#aCancelEdit').classList.remove('hidden');
+    }
+  });
+  
+  tbody.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{
+    const id = +b.dataset.del;
+    const cat = b.dataset.cat;
+    if(confirm('Удалить товар?')){
+      DB[cat] = DB[cat].filter(p=>p.id!==id);
+      saveDB(DB);
+      PRODUCTS = getAllProducts();
+      renderAdminProducts();
+      renderGrid();
+      renderStats();
+      toast('Товар удалён');
+    }
+  });
+}
+
+$('#aCancelEdit').onclick = resetAdminForm;
+
+$('#aAddBtn').onclick = ()=>{
+  const editId = $('#aEditId').value;
+  const name = $('#aName').value.trim();
+  const cat = $('#aCategory').value;
+  const caliber = $('#aCaliber').value.trim();
+  const price = parseFloat($('#aPrice').value);
+  const qty = parseInt($('#aQty').value);
+  const stock = $('#aStock').value;
+  const desc = $('#aDesc').value.trim();
+  // Берём ПЕРВОЕ загруженное фото
+  const img = tempImages[0] || '';
+  
+  if(!name || !caliber || !price){
+    toast('Заполните: название, калибр, цена');
+    return;
+  }
+  
+  if(editId) {
+    const oldItem = PRODUCTS.find(p => p.id === +editId);
+    if(oldItem) {
+      const oldCat = oldItem.cat;
+      const idx = DB[oldCat].findIndex(p => p.id === +editId);
+      if(idx !== -1) {
+        DB[oldCat][idx] = {...DB[oldCat][idx], name, caliber, price, qty: qty||0, stock, desc, img};
+        if(oldCat !== cat) {
+          const item = DB[oldCat].splice(idx, 1)[0];
+          if(!DB[cat]) DB[cat] = [];
+          DB[cat].push(item);
+        }
+      }
+    }
+    toast('Товар обновлён');
+  } else {
+    const maxId = PRODUCTS.length > 0 ? Math.max(...PRODUCTS.map(p=>p.id)) : 0;
+    const newProduct = {
+      id: maxId + 1, name, caliber, price, qty: qty||0, stock, desc, img, 
+      specs: {}, views: 0, orders: 0
+    };
+    if(!DB[cat]) DB[cat] = [];
+    DB[cat].push(newProduct);
+    toast('Товар добавлен');
+  }
+  
+  saveDB(DB);
+  PRODUCTS = getAllProducts();
+  resetAdminForm();
+  renderAdminProducts();
+  renderGrid();
+  renderStats();
+};
+
+$('#changePassBtn').onclick = ()=>{
+  const newPass = $('#newPass').value;
+  if(newPass.length < 6) { toast('Минимум 6 символов'); return; }
+  changePassword(newPass);
+  $('#newPass').value = '';
+  toast('Пароль изменён');
+};
+
+$('#aExport').onclick = ()=>{
+  const data = { products: DB, orders: ORDERS };
+  const dataStr = JSON.stringify(data, null, 2);
+  const blob = new Blob([dataStr], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `ohotnik_rybolov_backup_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('Резервная копия сохранена');
+};
+
+$('#aImport').addEventListener('change', e=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = evt=>{
+    try{
+      const imported = JSON.parse(evt.target.result);
+      if (imported.products) { DB = imported.products; saveDB(DB); }
+      if (imported.orders) { ORDERS = imported.orders; saveOrders(ORDERS); }
+      PRODUCTS = getAllProducts();
+      renderAdminProducts();
+      renderOrders();
+      renderStats();
+      renderGrid();
+      updateOrdersBadge();
+      toast('БД импортирована');
+    }catch(err){
+      toast('Ошибка импорта');
+    }
+  };
+  reader.readAsText(file);
+  e.target.value = '';
+});
+
+function renderOrders() {
+  const tbody = $('#aOrdersList');
+  if (ORDERS.length === 0) {
+    tbody.innerHTML = '';
+    $('#noOrders').classList.remove('hidden');
+    return;
+  }
+  $('#noOrders').classList.add('hidden');
+  tbody.innerHTML = [...ORDERS].reverse().map(o => `
+    <tr>
+      <td><b class="text-amber-light">${o.id}</b></td>
+      <td class="text-xs">${o.date}</td>
+      <td>${o.name}</td>
+      <td><a href="tel:${o.phone}" class="text-amber-light">${o.phone}</a></td>
+      <td class="text-xs">${o.items.map(i => `${i.name} ×${i.qty}`).join('<br>')}</td>
+      <td class="text-amber-light font-bold">${fmt(o.total)}</td>
+      <td>
+        <a href="https://wa.me/${o.phone.replace(/\D/g,'')}?text=${encodeURIComponent('Здравствуйте, '+o.name+'! По заявке '+o.id)}" target="_blank" class="admin-btn text-xs px-2 py-1" style="background:#25D366">💬</a>
+      </td>
+    </tr>
+  `).join('');
+}
+
+$('#clearOrders').onclick = () => {
+  if (confirm('Очистить всю историю заявок?')) {
+    ORDERS = [];
+    saveOrders(ORDERS);
+    renderOrders();
+    renderStats();
+    updateOrdersBadge();
+    toast('История очищена');
+  }
+};
+
+function renderStats() {
+  const totalProducts = PRODUCTS.length;
+  const totalOrders = ORDERS.length;
+  const totalViews = PRODUCTS.reduce((sum, p) => sum + (p.views || 0), 0);
+  const totalRevenue = ORDERS.reduce((sum, o) => sum + o.total, 0);
+  
+  $('#statProducts').textContent = totalProducts;
+  $('#statOrders').textContent = totalOrders;
+  $('#statViews').textContent = totalViews;
+  $('#statRevenue').textContent = fmt(totalRevenue);
+  
+  const popular = [...PRODUCTS].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+  $('#aPopularList').innerHTML = popular.map((p, i) => `
+    <tr>
+      <td><b class="text-amber-light">#${i + 1}</b></td>
+      <td>${p.name}</td>
+      <td>${p.views || 0} 👁</td>
+      <td>${p.orders || 0} 🛒</td>
+    </tr>
+  `).join('');
+}
+
+$('#bulkApply').onclick = () => {
+  const cat = $('#bulkCategory').value;
+  const stock = $('#bulkStock').value;
+  const qty = parseInt($('#bulkQty').value) || null;
+  
+  let count = 0;
+  const cats = cat === 'all' ? Object.keys(DB) : [cat];
+  cats.forEach(c => {
+    if (DB[c]) {
+      DB[c].forEach(p => {
+        p.stock = stock;
+        if (qty !== null) p.qty = qty;
+        count++;
+      });
+    }
+
+  });
+  
+  saveDB(DB);
+  PRODUCTS = getAllProducts();
+  renderAdminProducts();
+  renderGrid();
+  toast(`Обновлено ${count} товаров`);
+};
+
+/* ====================================================================
+   TOASTS & INIT
+==================================================================== */
+function toast(msg){
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.innerHTML = `<span class="w-2 h-2 rounded-full bg-amber shrink-0"></span><span>${msg}</span>`;
+  $('#toasts').appendChild(el);
+  setTimeout(()=>{ el.style.transition='opacity .4s, transform .4s'; el.style.opacity='0'; el.style.transform='translateY(8px)'; setTimeout(()=>el.remove(),420); }, 2800);
+}
+
+const io = new IntersectionObserver(es=>es.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+renderChips();
+renderGrid();
+syncStockToggle();
+syncCart();
+updateOrdersBadge();
+</script>
+</body>
+</html>
